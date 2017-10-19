@@ -28,11 +28,10 @@
 .navigation {
 	font-size: 18px;
 	text-align: center;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	padding-bottom: 0.5em;
 	font-weight: 200;
   display: block;
-  background: black
+  background: black;
 }
 
 .navigation a {
@@ -40,10 +39,8 @@
 }
 
 .nav-item {
-  padding: 0 1.5em;
+  padding: 0 1em;
 }
-
-/* This would be cool. Add nice CSS3 color transition */
 
 .navigation a:hover {
 	color: white;
@@ -52,6 +49,11 @@
 .navigation p {
 	display: inline-block;
 	vertical-align: middle;
+}
+
+.cusecLogo {
+  width: 45px;
+  margin-top: 1.2em;
 }
 
 .mobileLogo {
