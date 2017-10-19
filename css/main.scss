@@ -4,7 +4,6 @@
 @import "variables";
 @import "bootstrap/bootstrap";
 
-
 .main {
   text-align: center;
   margin: 4em 0;
@@ -35,6 +34,13 @@
 
 .speakers--section {
   margin: 4em 0;
+  h1 {
+    margin-bottom: 1.2em;
+  }
+  img {
+    max-width: 100px;
+    margin-bottom: 1.2em;
+  }
 }
 
 .btn--cusec {
@@ -94,7 +100,7 @@
 .navigation {
 	font-size: 18px;
 	text-align: center;
-	padding-bottom: 0.5em;
+	padding-bottom: 1.5em;
 	font-weight: 200;
   display: block;
   background: black;
@@ -120,6 +126,17 @@
 .cusecLogo {
   width: 45px;
   margin-top: 1.2em;
+}
+
+.splash--section {
+  height: 100vw;
+  max-height: 600px;
+  padding-top: 2em;
+  @media (max-width: 768px) {
+    button {
+      margin-bottom: 1.2em;
+    }
+  }
 }
 
 .mobileLogo {
