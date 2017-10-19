@@ -28,10 +28,11 @@
 .navigation {
 	font-size: 18px;
 	text-align: center;
-	margin-top: 30px;
-	margin-bottom: 30px;
-	font-weight: 300;
-	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-weight: 200;
+  display: block;
+  background: black
 }
 
 .navigation a {
@@ -39,7 +40,7 @@
 }
 
 .nav-item {
-  padding: 0 0.75em;
+  padding: 0 1.5em;
 }
 
 /* This would be cool. Add nice CSS3 color transition */
