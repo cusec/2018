@@ -56,7 +56,7 @@
 
 .btn--cusec {
   border: none;
-  background: linear-gradient(#F21AB2, #2240FF)
+  background: linear-gradient($brand-dark-pink, $brand-blue)
 }
 
 .square {
@@ -66,7 +66,7 @@
 }
 
 .events {
-  background: #F21AB2;
+  background: $brand-dark-pink;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -81,7 +81,7 @@
 }
 
 .tickets {
-  background: #2240FF;
+  background: $brand-blue;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -182,11 +182,11 @@
   }
 
   .social-icon a:hover {
-    color: #f21ab2;
+    color: $brand-dark-pink;
   }
 
   .link-cusec {
-    color: #f21ab2;
+    color: $brand-dark-pink;
   }
 
   p {
