@@ -32,6 +32,17 @@
   }
 }
 
+.hd-school-header {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border-bottom: 3px solid #fff;
+}
+
+.hd-school-lead {
+  font-weight: normal;
+  margin-bottom: 3rem;
+}
+
 .speakers--section {
   margin: 4em 0;
   h1 {
@@ -151,6 +162,7 @@
 	color: white;
 	padding: 2%;
   line-height: 0.1;
+  margin-top: 30px;
 
   .list-inline {
     padding-left: 0;
@@ -186,5 +198,28 @@
     font-weight: 300;
     color: rgb(255, 255, 255);
     text-align: center;
+  }
+}
+
+#schools-page {
+  p {
+    text-align: center;
+    margin-top: -10px;
+  }
+
+  h2 {
+    color: $brand-lighter-pink;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  a {
+    color: #fff;
+  }
+
+  a:hover {
+    color: $brand-dark-pink
   }
 }
