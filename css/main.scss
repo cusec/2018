@@ -6,12 +6,16 @@
 
 .main {
   text-align: center;
-  margin: 4em 0;
+  margin: 1em 0 2em 0;
 
   .lead {
-    margin: 0.5em 0 1em 0;
+    margin-top: 0.5em;
     font-weight: 400;
-    font-size: 2.7em;
+    font-size: 2.2em;
+  }
+
+  .subtitle {
+    margin-bottom: 1em;
   }
 
   .splash--image {
@@ -51,6 +55,9 @@
   img {
     max-width: 100px;
     margin-bottom: 1.2em;
+  }
+  .grid {
+    margin-bottom: 2em;
   }
 }
 
@@ -123,7 +130,7 @@
 
 .nav-item {
   margin-top: 10px;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
   padding: 0 1.5em;
 }
 
