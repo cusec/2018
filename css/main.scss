@@ -6,12 +6,16 @@
 
 .main {
   text-align: center;
-  margin: 4em 0;
+  margin: 1em 0 2em 0;
 
   .lead {
-    margin: 0.5em 0 1em 0;
+    margin-top: 0.5em;
     font-weight: 400;
-    font-size: 2.7em;
+    font-size: 2.2em;
+  }
+
+  .subtitle {
+    margin-bottom: 1em;
   }
 
   .splash--image {
@@ -32,6 +36,17 @@
   }
 }
 
+.hd-school-header {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border-bottom: 3px solid #fff;
+}
+
+.hd-school-lead {
+  font-weight: normal;
+  margin-bottom: 3rem;
+}
+
 .speakers--section {
   margin: 4em 0;
   h1 {
@@ -40,6 +55,9 @@
   img {
     max-width: 100px;
     margin-bottom: 1.2em;
+  }
+  .grid {
+    margin-bottom: 2em;
   }
 }
 
@@ -138,7 +156,7 @@
 
 .nav-item {
   margin-top: 10px;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
   padding: 0 1.5em;
 }
 
@@ -177,6 +195,7 @@
 	color: white;
 	padding: 2%;
   line-height: 0.1;
+  margin-top: 30px;
 
   .list-inline {
     padding-left: 0;
@@ -212,5 +231,28 @@
     font-weight: 300;
     color: rgb(255, 255, 255);
     text-align: center;
+  }
+}
+
+#schools-page {
+  p {
+    text-align: center;
+    margin-top: -10px;
+  }
+
+  h2 {
+    color: $brand-lighter-pink;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  a {
+    color: #fff;
+  }
+
+  a:hover {
+    color: $brand-dark-pink
   }
 }
