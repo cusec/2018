@@ -230,3 +230,59 @@
     color: $brand-dark-pink
   }
 }
+
+.table {
+  background-color: #fff;
+  margin-bottom: 50px;
+}
+.table td, .table th {
+  text-align: center;
+  vertical-align: middle !important;
+}
+
+td.keynote {
+  background-color: rgba(46, 204, 113, 0.1);
+}
+td.talk {
+  background-color: rgba(26, 188, 156, 0.05)
+}
+td.workshop {
+  background-color: rgba(52, 152, 219, 0.1);
+}
+td.event {
+  background-color: rgba(155, 89, 182, 0.1);
+}
+td .note {
+  color: #34495e;
+  font-size: 12px;
+}
+
+.btn-group-days {
+  margin-bottom: 50px;
+}
+.btn-group-days .btn {
+  border-width: 0;
+}
+.btn-group-days .btn-day1 {
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#01e792), to(#27DEB6));
+  background-image: -webkit-linear-gradient(left, #01e792, #27DEB6);
+  background-image: -moz-linear-gradient(left, #01e792, #27DEB6);
+  background-image: -o-linear-gradient(left, #01e792, #27DEB6);
+}
+.btn-group-days .btn-day2 {
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#27DEB6), to(#4DD5DA));
+  background-image: -webkit-linear-gradient(left, #27DEB6, #4DD5DA);
+  background-image: -moz-linear-gradient(left, #27DEB6, #4DD5DA);
+  background-image: -o-linear-gradient(left, #27DEB6, #4DD5DA);
+}
+.btn-group-days .btn-day3 {
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#4DD5DA), to(#73CCFF));
+  background-image: -webkit-linear-gradient(left, #4DD5DA, #73CCFF);
+  background-image: -moz-linear-gradient(left, #4DD5DA, #73CCFF);
+  background-image: -o-linear-gradient(left, #4DD5DA, #73CCFF);
+}
+
+.schedule-page {
+  margin: 4em 0;
+  color: #000000;
+}
