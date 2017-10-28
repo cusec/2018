@@ -6,12 +6,16 @@
 
 .main {
   text-align: center;
-  margin: 4em 0;
+  margin: 1em 0 2em 0;
 
   .lead {
-    margin: 0.5em 0 1em 0;
+    margin-top: 0.5em;
     font-weight: 400;
-    font-size: 2.7em;
+    font-size: 2.2em;
+  }
+
+  .subtitle {
+    margin-bottom: 1em;
   }
 
   .splash--image {
@@ -32,6 +36,17 @@
   }
 }
 
+.hd-school-header {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border-bottom: 3px solid #fff;
+}
+
+.hd-school-lead {
+  font-weight: normal;
+  margin-bottom: 3rem;
+}
+
 .speakers--section {
   margin: 4em 0;
   h1 {
@@ -41,11 +56,14 @@
     max-width: 100px;
     margin-bottom: 1.2em;
   }
+  .grid {
+    margin-bottom: 2em;
+  }
 }
 
 .btn--cusec {
   border: none;
-  background: linear-gradient(#F21AB2, #2240FF)
+  background: linear-gradient($brand-dark-pink, $brand-blue)
 }
 
 .square {
@@ -55,7 +73,7 @@
 }
 
 .events {
-  background: #F21AB2;
+  background: $brand-dark-pink;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -70,7 +88,7 @@
 }
 
 .tickets {
-  background: #2240FF;
+  background: $brand-blue;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -97,6 +115,43 @@
   }
 }
 
+#code-of-conduct {
+  .coc-header {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border-bottom: 3px solid #fff;
+  }
+  .coc-lead {
+    color: $brand-lighter-pink;
+    font-weight: normal;
+    margin-bottom: 3rem;
+  }
+  p {
+    margin-bottom: 30px;
+  }
+  .coc-title-accent {
+    color: $brand-lighter-pink;
+  }
+}
+
+#contact-information {
+  .coc-contact-info {
+    color: $brand-lighter-pink;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    display:table-cell;
+    border-bottom: 4px solid #ee80ff;
+  }
+  
+  p {
+    margin-top: 20px;
+  }
+
+  a {
+    color: $brand-lighter-pink;
+  }
+}
+
 .navigation {
 	font-size: 18px;
 	text-align: center;
@@ -111,7 +166,9 @@
 }
 
 .nav-item {
-  padding: 0 1em;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 0 1.5em;
 }
 
 .navigation a:hover {
@@ -124,7 +181,7 @@
 }
 
 .cusecLogo {
-  width: 45px;
+  width: 55px;
   margin-top: 1.2em;
 }
 
@@ -149,6 +206,7 @@
 	color: white;
 	padding: 2%;
   line-height: 0.1;
+  margin-top: 30px;
 
   .list-inline {
     padding-left: 0;
@@ -171,11 +229,11 @@
   }
 
   .social-icon a:hover {
-    color: #f21ab2;
+    color: $brand-dark-pink;
   }
 
   .link-cusec {
-    color: #f21ab2;
+    color: $brand-dark-pink;
   }
 
   p {
@@ -185,4 +243,83 @@
     color: rgb(255, 255, 255);
     text-align: center;
   }
+}
+
+#schools-page {
+  p {
+    text-align: center;
+    margin-top: -10px;
+  }
+
+  h2 {
+    color: $brand-lighter-pink;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  a {
+    color: #fff;
+  }
+
+  a:hover {
+    color: $brand-dark-pink
+  }
+}
+
+.table {
+  background-color: #fff;
+  margin-bottom: 50px;
+}
+.table td, .table th {
+  text-align: center;
+  vertical-align: middle !important;
+}
+
+td.keynote {
+  background-color: rgba(46, 204, 113, 0.1);
+}
+td.talk {
+  background-color: rgba(26, 188, 156, 0.05)
+}
+td.workshop {
+  background-color: rgba(52, 152, 219, 0.1);
+}
+td.event {
+  background-color: rgba(155, 89, 182, 0.1);
+}
+td .note {
+  color: #34495e;
+  font-size: 12px;
+}
+
+.btn-group-days {
+  margin-bottom: 50px;
+}
+.btn-group-days .btn {
+  border-width: 0;
+}
+.btn-group-days .btn-day1 {
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#01e792), to(#27DEB6));
+  background-image: -webkit-linear-gradient(left, #01e792, #27DEB6);
+  background-image: -moz-linear-gradient(left, #01e792, #27DEB6);
+  background-image: -o-linear-gradient(left, #01e792, #27DEB6);
+}
+.btn-group-days .btn-day2 {
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#27DEB6), to(#4DD5DA));
+  background-image: -webkit-linear-gradient(left, #27DEB6, #4DD5DA);
+  background-image: -moz-linear-gradient(left, #27DEB6, #4DD5DA);
+  background-image: -o-linear-gradient(left, #27DEB6, #4DD5DA);
+}
+.btn-group-days .btn-day3 {
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#4DD5DA), to(#73CCFF));
+  background-image: -webkit-linear-gradient(left, #4DD5DA, #73CCFF);
+  background-image: -moz-linear-gradient(left, #4DD5DA, #73CCFF);
+  background-image: -o-linear-gradient(left, #4DD5DA, #73CCFF);
+}
+
+.schedule-page {
+  margin: 4em 0;
+  color: #000000;
 }
