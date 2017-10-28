@@ -115,6 +115,43 @@
   }
 }
 
+#code-of-conduct {
+  .coc-header {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border-bottom: 3px solid #fff;
+  }
+  .coc-lead {
+    color: $brand-lighter-pink;
+    font-weight: normal;
+    margin-bottom: 3rem;
+  }
+  p {
+    margin-bottom: 30px;
+  }
+  .coc-title-accent {
+    color: $brand-lighter-pink;
+  }
+}
+
+#contact-information {
+  .coc-contact-info {
+    color: $brand-lighter-pink;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    display:table-cell;
+    border-bottom: 4px solid #ee80ff;
+  }
+  
+  p {
+    margin-top: 20px;
+  }
+
+  a {
+    color: $brand-lighter-pink;
+  }
+}
+
 .navigation {
 	font-size: 18px;
 	text-align: center;
