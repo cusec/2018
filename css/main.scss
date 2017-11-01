@@ -78,9 +78,7 @@
 }
 
 .hd-school-header {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  border-bottom: 3px solid #fff;
+  margin: 3rem 0
 }
 
 .hd-school-lead {
@@ -161,8 +159,10 @@
   .coc-header {
     margin-top: 3rem;
     margin-bottom: 3rem;
-    border-bottom: 3px solid #fff;
     text-decoration: underline;
+    @media (min-width: 768px) {
+      font-size: 3em;
+    }
   }
   .coc-lead {
     color: $brand-lighter-pink;
@@ -183,7 +183,6 @@
     font-weight: bolder;
     margin-bottom: 30px;
     display:table-cell;
-    border-bottom: 4px solid #ee80ff;
   }
   
   p {
