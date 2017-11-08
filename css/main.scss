@@ -380,3 +380,43 @@ td .note {
   margin: 4em 0;
   color: #000000;
 }
+
+.team-page {
+  .team-header {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    @media (min-width: 768px) {
+      font-size: 3em;
+    }
+  }
+
+  .team-pic{
+    figure {
+        display: block;
+        margin-bottom: 15px;
+        img {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 210px;
+            border: 2px solid #fff;
+        }
+    }
+    h3 {
+        margin-bottom: 0px;
+        color: $brand-lighter-blue;
+    }
+    .team-twitter, .team-position{
+        color: $brand-lighter-blue;
+        display: block;
+        margin-top: 0px;
+        padding: 0.3em 1em 1em 1em;
+    }
+}
+.team-person-bio{
+    color: $brand-lighter-blue;
+    padding-top: 5rem;
+    p.bio {
+      margin-top:4rem;
+    }
+}
+}
