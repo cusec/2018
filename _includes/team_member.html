@@ -1,4 +1,4 @@
-<div class="row justify-content-center">
+<div class="row justify-content-center align-items-center">
     <div class="col-md-3 col-md-offset-2">
         <div class="team-pic text-center" id="{{ team.twitter }}">
             <figure><img src="{{ "/assets/team/" | prepend: site.url }}{{ team.pic | default: 'placeholder.png' }}" alt="Image" class="rounded-circle img-fluid"></figure>
@@ -18,9 +18,7 @@
             <p class="bio">{{ team.bio | default: 'Description coming soon!' }}</p>
         </div>
     </div>
-    {% if forloop.last == false %}
-    <div class="col-md-12">
-        <hr/>
-    </div>
-    {% endif %}
 </div>
+{% if forloop.last == false %}
+  <hr/>
+{% endif %}
