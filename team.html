@@ -5,17 +5,14 @@ permalink: /team/
 ---
 
 <section id="team-page" data-section="team">
-    <div class="container">
+    <div class="container team-container">
         <div class="row justify-content-center">
             <div class="col-md-12">
-                <h1 class="text-center team-header">🙌🏻 🙌🏻 CUSEC 2018 Organizers and Head Delegates 🙌🏻 🙌🏻</h1>
+                <h1 class="text-center team-header">CUSEC 2018 Organizers and Head Delegates</h1>
             </div>
         </div>
         {% for team in site.data.team.organizers %}
           {% include team_member.html %}
         {% endfor %}
-        {% for team in site.data.team.delegates %}
-          {% include team_member.html %}
-        {% endfor %}
-</div>
+    </div>
 </section>

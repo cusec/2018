@@ -1,13 +1,13 @@
 organizers:
+  - name: Gracey Hlywa Maytan
+    position: Co-Chair
+    bio: Gracey is a Computer Science student at Concordia University. She is passionate about self-discovery and experiencing new adventures. This is her third time at CUSEC, and she is proud to be part of the student tech community where so many of the people she meets are engaged in communication, conversation, and support of each other.
+    pic: Gracey.jpg
+    
   - name: Kenny Hong
     position: Co-Chair 
     bio: Kenny is a M.Sc student at the University of Manisnowba in Winterpeg. His research area is in 3D scientific data visualization with immersive displays. Outside of academics, Kenny sings with a choir called Prairie Voices. He is looking foward to meeting everyone at CUSEC!
     pic: Kenny.jpg
-
-  - name: Gracey Hlywa Maytan
-    position: Co-Chair
-    bio: Bio coming soon!
-    pic: Gracey.jpg
 
   - name: Paul Lee
     position: Director of Sponsorship
@@ -39,7 +39,6 @@ organizers:
     bio: Laura is a proud mother of plants, builder of furniture, and second year Software Engineering student at Concordia. She had a truly wonderful time at last year's conference and can't wait for you to join this year! 
     pic: Laura.jpg   
 
-delegates:
   - name: Elisa Kazan
     position: Head Delegate of Carleton
     bio: Hey! I’m Elisa and I’m a third year computer science student in the mobile computing stream at Carleton University. 👩🏼‍💻 I’m energetic, loud and super excited to meet all of you in Montreal! 🙌🏻 Who’s ready for the best weekend ever?! 😎
