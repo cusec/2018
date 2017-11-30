@@ -1,3 +1,26 @@
 ---
 layout: default
+title: CUSEC 2018 Speakers
+permalink: /speakers/
 ---
+<section id="team-page" data-section="speakers">
+    <div class="container team-container">
+        <div class="row justify-content-center">
+            <div class="col-md-12">
+                <h1 class="text-center team-header">CUSEC 2018 Keynote Speakers</h1>
+            </div>
+        </div>
+        {% for speaker in site.data.speakers.keynotes %}
+          {% include speaker_info.html %}
+        {% endfor %}
+        <br/><br/>
+        <div class="row justify-content-center">
+                <div class="col-md-12">
+                    <h1 class="text-center team-header">CUSEC 2018 Invited Speakers</h1>
+                </div>
+            </div>
+            {% for speaker in site.data.speakers.invspeakers %}
+              {% include speaker_info.html %}
+            {% endfor %}
+    </div>
+</section>
