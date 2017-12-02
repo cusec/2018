@@ -417,11 +417,25 @@ td .note {
         margin-bottom: 0px;
         color: #fff;
     }
-    .team-twitter, .team-position{
+    .team-position{
         color: #fff;
         display: block;
         margin-top: 0px;
         padding: 0.3em 1em 1em 1em;
+    }
+
+    .spk-social-media {
+      display: block;
+      margin-top: 0px;
+      padding: 0.3em 1em 1em 1em;
+    }
+
+    a {
+      color: #fff
+    }
+
+    a:hover {
+      color: $brand-lt-pink;
     }
 }
 .team-person-bio{

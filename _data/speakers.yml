@@ -1,0 +1,130 @@
+keynotes:
+  - name: Vadim Makarov
+    twitter: 
+    website: http://www.vad1.com/lab/
+    bio: Prof. Vadim Makarov works with quantum cryptography. He heads the Quantum hacking lab http://www.vad1.com/lab/ at the University of Waterloo, where he and his students try to break implementations of quantum cryptography despite all the claims that it is unbreakable :).
+    pic: vadim.jpg
+    title: 
+    abstract: 
+
+  - name: Karen Sandler
+    twitter: 
+    bio: 
+    pic: 
+    title: 
+    abstract: 
+
+  - name: kf
+    twitter: 
+    bio: 
+    pic: 
+    title: 
+    abstract: 
+
+  - name: Eva Galperin
+    twitter: 
+    bio: 
+    pic: 
+    title: 
+    abstract: 
+
+  - name: Lori Olson
+    twitter: 
+    bio: 
+    pic: 
+    title: 
+    abstract: 
+
+  - name: TBA
+    twitter: 
+    bio: 
+    pic: 
+    title: 
+    abstract:
+
+
+invspeakers:
+  - name: Kim Moir
+    twitter: kmoir
+    bio: Kim Moir works at Mozilla as a Staff Release Engineer. Kim’s interests lie in optimizing large distributed systems, specifically debugging and optimizing high volume continuous integration farms. Her favourite thing to do is to replace an existing system with a new one until the legacy system is a tiny shell of its former self and it can be deleted, with no downtime. Kim has spoken at conferences and written extensively about open source and release engineering at scale on her blog https://kimmoir.blog. She is an advocate for more inclusive and diverse culture within the industry, and practices for more effective teams. Outside of work, Kim is a long distance runner, which dovetails nicely with her other hobby of baking cakes and making ice cream. She has an amazing husband and son.
+    pic: kim.jpg
+    title: 
+    abstract: 
+
+  - name: Jake Pittis
+    twitter: jpittis
+    bio: In between teaching his team about jazz, Jake can be found on the Production Engineering Team at Shopify. He's worked preparing the platform for massive celebrity sales, making Shopify run out of multiple data centres, and the resiliency stack to protect the app against misbehaving resources, and itself. Canadian Geese are his favourite animals. While the hipster movement of his nation has recently taken to eating these poor birds, Jake has yet to taste one. And never plans to. We don't eat our friends.
+    pic: jake.jpg
+    title: 
+    abstract: 
+
+  - name: Jacob Cook
+    twitter: peakwinter
+    bio: Jacob Cook is a developer, Python/JS enthusiast and tech rabble-rouser based in Montréal. His fields of interest include staying on the cutting-edge of Web development practices, building software to help user privacy and exploring technology allowing for the decentralization of the Internet. He is the author of several Python libraries as well as the lead developer behind the arkOS self-hosted server project, which was featured in VentureBeat, Fast Company, Der Spiegel and many other tech twitter sites. Jacob currently works as a software developer and project manager for Savoir-faire Linux, a consulting firm that brings the power of open source technologies like Python and Django to the world of enterprise and government software applications.
+    pic: jacob.jpeg
+    title: 
+    abstract: 
+
+  - name: Nicolas Le Roux
+    twitter: le_roux_nicolas
+    bio: Nicolas Le Roux got an MSc in Applied Maths from Ecole Centrale Paris and an MSc in Maths, Learning and Vision from ENS Cachan. He got his PhD in 2008 from University of Montreal where he worked with Yoshua Bengio on neural networks in general and their optimisation in particular. He then moved to Microsoft Research Cambridge to work on generative models of images with John Winn. In 2010, he joined Inria in Francis Bach's team to work on large-scale convex optimisation. From 2012 to 2017, he created and managed the research team at Criteo in Paris. He joined Google Brain Montreal in 2017 where he now works on large-scale optimization and reinforcement learning.
+    pic: nico.jpg
+    title: 
+    abstract: 
+
+  - name: Jim Duey
+    twitter: toccata_lang
+    bio: I've been a professional programmer for close to 30 years working on software from Assembly up through telecom infrastructure across a range of industries using a variety of languages. I'm currently a fan of Clojure and I'm creating a new language inspired by Clojure that compiles to native executables.
+    pic: jim.jpg
+    title: 
+    abstract: 
+
+  - name: Kaitlyn Yong
+    twitter: 
+    bio: 
+    pic: 
+    title: 
+    abstract: 
+
+  - name: Arshia Mufti
+    twitter: 
+    bio: 
+    pic: 
+    title: 
+    abstract: 
+
+  - name: Mahtab Sabet
+    twitter: 
+    bio: 
+    pic: 
+    title: 
+    abstract: 
+
+  - name: Christian Joudrey
+    twitter: 
+    bio: 
+    pic: 
+    title: 
+    abstract: 
+
+  - name: Mike Hoye
+    twitter: 
+    bio: 
+    pic: 
+    title: 
+    abstract: 
+
+  - name: Robert Fratila
+    twitter: 
+    bio: 
+    pic: 
+    title: 
+    abstract: 
+
+  - name: Julian Squires
+    twitter: 
+    bio: 
+    pic: 
+    title: 
+    abstract: 
+ 
