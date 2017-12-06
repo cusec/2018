@@ -1,4 +1,62 @@
 ---
 layout: default
 title: Sponsors
+permalink: /sponsors/
 ---
+
+<section id="sponsors" data-section="sponsors">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12">
+                <h1 class="text-center sponsor-header">CUSEC Sponsors</h1>
+                <p class="h4 text-center sponsor-lead">CUSEC is only possible with the support from all of our sponsors!</p>
+            </div>
+        </div>
+
+        <div class="row row-buff">
+            <div class="col-md-12 text-center">
+                <h2>Gold Sponsors</h2>
+                <div class="row">
+                    {% for sponsor in site.data.sponsors.gold %}
+        			<div class="col-xs-6 col-sm-4 col-md-3">
+                        <div class="sponsor-item">
+        					{% if sponsor.url %}<a href="{{ sponsor.url }}">{% endif %}<img src="{{ '/assets/sponsors/' | prepend: site.url | append: sponsor.logo }}" alt="{{ sponsor.alt_text }}" class="img-fluid center-block">{% if sponsor.url %}</a>{% endif %}
+                        </div>
+        			</div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-buff">
+            <div class="col-md-12 text-center">
+                <h2>Silver Sponsors</h2>
+                <div class="row">
+                    {% for sponsor in site.data.sponsors.silver %}
+        			<div class="col-xs-6 col-sm-4 col-md-4">
+                        <div class="sponsor-item">
+        					{% if sponsor.url %}<a href="{{ sponsor.url }}">{% endif %}<img src="{{ '/assets/sponsors/' | prepend: site.url | append: sponsor.logo }}" alt="{{ sponsor.alt_text }}" class="img-responsive center-block">{% if sponsor.url %}</a>{% endif %}
+                        </div>
+        			</div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-buff">
+            <div class="col-md-12 text-center">
+                <h2 class="to-animate">Bronze Sponsors</h2>
+                <div class="row">
+                    {% for sponsor in site.data.sponsors.bronze %}
+                    <div class="col-xs-6 col-sm-4 col-md-4">
+                        <div class="sponsor-item">
+        					{% if sponsor.url %}<a href="{{ sponsor.url }}">{% endif %}<img src="{{ '/assets/sponsors/' | prepend: site.url | append: sponsor.logo }}" alt="{{ sponsor.alt_text }}" class="img-responsive center-block">{% if sponsor.url %}</a>{% endif %}
+                        </div>
+        			</div>
+                    {% endfor %}
+            </div>
+        </div>
+</div>
+
+    </div>
+</section>

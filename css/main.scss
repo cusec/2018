@@ -389,6 +389,51 @@ td .note {
   color: #000000;
 }
 
+#sponsors {
+  .sponsor-header {
+    margin: 3rem 0
+  }
+  
+  .sponsor-lead {
+    font-weight: normal;
+    margin-bottom: 3rem;
+  }
+
+  .row-buff{
+    padding-bottom: 3em;
+  }
+  
+  .sponsor-item{
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  h2{
+    margin: 0 0 30px 0;
+    font-size: 32px;
+    font-weight: 300;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    display: block;
+    padding-bottom: 5px;
+    line-height: 1.5;
+
+    &:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 80px;
+  height: 2px;
+  background: $brand-dark-pink;
+  left: 50%;
+  margin-left: -40px;
+  bottom: 0;
+}
+}
+}
+
 #team-page {
   .team-header {
     margin-top: 3rem;
