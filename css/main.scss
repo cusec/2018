@@ -407,6 +407,11 @@ td .note {
     margin: 0 auto;
     text-align: center;
     padding-bottom: 30px;
+    @media (min-width: 768px) {
+      img {
+        height: 50%;
+      }
+    }
   }
 
   h2{
