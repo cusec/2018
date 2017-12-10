@@ -16,9 +16,9 @@ permalink: /sponsors/
         <div class="row row-buff">
             <div class="col-md-12 text-center">
                 <h2>Gold Sponsors</h2>
-                <div class="row">
+                <div class="row justify-content-center">
                     {% for sponsor in site.data.sponsors.gold %}
-        			<div class="col-xs-6 col-sm-4 col-md-3">
+        			<div class="col-xs-6 col-sm-4 col-md-4">
                         <div class="sponsor-item">
         					{% if sponsor.url %}<a href="{{ sponsor.url }}">{% endif %}<img src="{{ '/assets/sponsors/' | prepend: site.url | append: sponsor.logo }}" alt="{{ sponsor.alt_text }}" class="img-fluid center-block">{% if sponsor.url %}</a>{% endif %}
                         </div>
@@ -31,11 +31,11 @@ permalink: /sponsors/
         <div class="row row-buff">
             <div class="col-md-12 text-center">
                 <h2>Silver Sponsors</h2>
-                <div class="row">
+                <div class="row justify-content-center">
                     {% for sponsor in site.data.sponsors.silver %}
         			<div class="col-xs-6 col-sm-4 col-md-4">
                         <div class="sponsor-item">
-        					{% if sponsor.url %}<a href="{{ sponsor.url }}">{% endif %}<img src="{{ '/assets/sponsors/' | prepend: site.url | append: sponsor.logo }}" alt="{{ sponsor.alt_text }}" class="img-responsive center-block">{% if sponsor.url %}</a>{% endif %}
+        					{% if sponsor.url %}<a href="{{ sponsor.url }}">{% endif %}<img src="{{ '/assets/sponsors/' | prepend: site.url | append: sponsor.logo }}" alt="{{ sponsor.alt_text }}" class="img-fluid center-block">{% if sponsor.url %}</a>{% endif %}
                         </div>
         			</div>
                     {% endfor %}
@@ -46,11 +46,11 @@ permalink: /sponsors/
         <div class="row row-buff">
             <div class="col-md-12 text-center">
                 <h2 class="to-animate">Bronze Sponsors</h2>
-                <div class="row">
+                <div class="row justify-content-center">
                     {% for sponsor in site.data.sponsors.bronze %}
                     <div class="col-xs-6 col-sm-4 col-md-4">
                         <div class="sponsor-item">
-        					{% if sponsor.url %}<a href="{{ sponsor.url }}">{% endif %}<img src="{{ '/assets/sponsors/' | prepend: site.url | append: sponsor.logo }}" alt="{{ sponsor.alt_text }}" class="img-responsive center-block">{% if sponsor.url %}</a>{% endif %}
+        					{% if sponsor.url %}<a href="{{ sponsor.url }}">{% endif %}<img src="{{ '/assets/sponsors/' | prepend: site.url | append: sponsor.logo }}" alt="{{ sponsor.alt_text }}" class="img-fluid center-block">{% if sponsor.url %}</a>{% endif %}
                         </div>
         			</div>
                     {% endfor %}
