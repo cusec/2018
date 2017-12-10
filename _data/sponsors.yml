@@ -1,0 +1,40 @@
+partner:
+  - logo:
+    alt:
+    url:
+
+gold:
+  - logo: rbc.png
+    alt: Royal Bank of Canada Logo
+    url: http://www.rbc.com/careers/
+
+  - logo: wind.png
+    alt: Wind River Logo
+    url: http://www.windriver.com/
+
+  - logo: cae.png
+    alt: CAE Logo
+    url: http://www.cae.com/
+
+  - logo: yelp.png
+    alt: Yelp logo
+    url: https://www.yelp.com/
+
+  - logo: morganstanley.png
+    alt: Morgan Stanley Logo
+    url: http://www.morganstanley.com/
+
+silver:
+  - logo: ubisoft.png
+    alt: Ubisoft
+    url: https://www.ubisoft.com
+
+  - logo: bmo.png
+    alt: Bank of Montreal Logo
+    url: https://www.bmo.com/main/personal
+
+
+bronze:
+  - logo: stickermule.png
+    alt: Sticker Mule Logo
+    url: https://www.stickermule.com/
