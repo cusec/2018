@@ -64,7 +64,11 @@
 }
 
 .events--section {
-  margin: 4em 0;
+  margin: 0;
+  margin-bottom: 4em;
+  button {
+    cursor: pointer !important;
+  }
 }
 
 .venue--section {
@@ -116,22 +120,7 @@
   padding: 0;
 }
 
-.events {
-  background: $brand-dark-pink;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 2em;
-
-  p {
-    font-size: 1em;
-    text-align: left;
-  }
-}
-
-.tickets {
+.lightningtalks {
   background: $brand-blue;
   height: 100%;
   display: flex;
@@ -139,14 +128,29 @@
   justify-content: center;
   align-items: center;
   padding: 2em;
+
   p {
     font-size: 1em;
     text-align: left;
   }
 }
 
-.coc {
+.democamp {
   background: #000000;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  p {
+    font-size: 1em;
+    text-align: left;
+  }
+}
+
+.resumeupload {
+  background: $brand-blue;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -411,7 +415,7 @@ td .note {
         margin:  auto;
     }
 }
-  
+
   .sponsor-item{
     margin: 0 auto;
     text-align: center;
