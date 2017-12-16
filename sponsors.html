@@ -50,11 +50,7 @@ permalink: /sponsors/
                     {% for sponsor in site.data.sponsors.silver %}
         			<div class="col-xs-6 col-sm-4 col-md-4">
                         <div class="sponsor-item">
-<<<<<<< HEAD
-        					{% if sponsor.url %}<a href="{{ sponsor.url }}">{% endif %}<img src="{{ '/assets/sponsors/' | prepend: site.url | append: sponsor.logo }}" alt="{{ sponsor.alt_text }}" class="img-fluid center-block">{% if sponsor.url %}</a>{% endif %}
-=======
         					{% if sponsor.url %}<a href="{{ sponsor.url }}">{% endif %}<img src="{{ "/assets/sponsors/" }}{{ sponsor.logo }}" alt="{{ sponsor.alt_text }}" class="img-fluid center-block">{% if sponsor.url %}</a>{% endif %}
->>>>>>> 9ddbb33205a0cff397f5a007f87f568186373e0a
                         </div>
         			</div>
                     {% endfor %}
@@ -69,11 +65,7 @@ permalink: /sponsors/
                     {% for sponsor in site.data.sponsors.bronze %}
                     <div class="col-xs-6 col-sm-4 col-md-4">
                         <div class="sponsor-item">
-<<<<<<< HEAD
-        					{% if sponsor.url %}<a href="{{ sponsor.url }}">{% endif %}<img src="{{ '/assets/sponsors/' | prepend: site.url | append: sponsor.logo }}" alt="{{ sponsor.alt_text }}" class="img-fluid center-block">{% if sponsor.url %}</a>{% endif %}
-=======
         					{% if sponsor.url %}<a href="{{ sponsor.url }}">{% endif %}<img src="{{ "/assets/sponsors/" }}{{ sponsor.logo }}" alt="{{ sponsor.alt_text }}" class="img-fluid center-block">{% if sponsor.url %}</a>{% endif %}
->>>>>>> 9ddbb33205a0cff397f5a007f87f568186373e0a
                         </div>
         			</div>
                     {% endfor %}
