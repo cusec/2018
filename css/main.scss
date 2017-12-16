@@ -66,6 +66,9 @@
 .events--section {
   margin: 0;
   margin-bottom: 4em;
+  button {
+    cursor: pointer !important;
+  }
 }
 
 .venue--section {
@@ -412,7 +415,7 @@ td .note {
         margin:  auto;
     }
 }
-  
+
   .sponsor-item{
     margin: 0 auto;
     text-align: center;
