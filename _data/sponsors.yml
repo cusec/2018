@@ -1,7 +1,7 @@
 partner:
-  - logo:
-    alt:
-    url:
+  - logo: ibm.png
+    alt: IBM Logo
+    url: http://www.ibm.com/careers/
 
 gold:
   - logo: rbc.png
@@ -24,6 +24,10 @@ gold:
     alt: Morgan Stanley Logo
     url: http://www.morganstanley.com/
 
+  - logo: csec.png
+    alt: CSEC Logo
+    url:
+
 silver:
   - logo: ubisoft.png
     alt: Ubisoft
@@ -33,8 +37,23 @@ silver:
     alt: Bank of Montreal Logo
     url: https://www.bmo.com/main/personal
 
+  - logo: capitalone.png
+    alt: Capital One Logo
+    url:
+
+  - logo: sap.png
+    alt: SAP Logo
+    url:
+
+  - logo: shopify.png
+    alt: Shopify Logo
+    url: https://shopify.com
 
 bronze:
   - logo: stickermule.png
     alt: Sticker Mule Logo
     url: https://www.stickermule.com/
+
+  - logo: spiria.png
+    alt: Spiria logo
+    url: 

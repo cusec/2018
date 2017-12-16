@@ -7,14 +7,14 @@ keynotes:
     title: 
     abstract: 
 
-  - name: Karen Sandler
-    twitter: 
-    bio: 
-    pic: 
+  - name: kf Fellows
+    twitter: kf
+    bio: kf is a coder based in Portland, OR who’s enthusiastic about data, functional programming, distributed systems, and distributed teams!<br><br> Currently, she works as a data engineer at Splice, building data infrastructure to deliver insights about how musicians use software to create. Previously, she’s worked on data infrastructure, platform engineering, and observability at Simple, Comcast, and various startups around the Bay Area.<br><br> In her spare time, kf has enjoyed organizing events that make learning new coding skills more accessible, like ClojureBridge, Women Who Code, Papers We Love, PLIBMTTBHGATY, and Open Source Bridge. She also tweets a lot of selfies with her cat.
+    pic: kf.jpg
     title: 
     abstract: 
 
-  - name: kf
+  - name: Karen Sandler
     twitter: 
     bio: 
     pic: 
@@ -46,7 +46,7 @@ keynotes:
 invspeakers:
   - name: Kim Moir
     twitter: kmoir
-    bio: Kim Moir works at Mozilla as a Staff Release Engineer. Kim’s interests lie in optimizing large distributed systems, specifically debugging and optimizing high volume continuous integration farms. Her favourite thing to do is to replace an existing system with a new one until the legacy system is a tiny shell of its former self and it can be deleted, with no downtime. Kim has spoken at conferences and written extensively about open source and release engineering at scale on her blog https://kimmoir.blog. She is an advocate for more inclusive and diverse culture within the industry, and practices for more effective teams. Outside of work, Kim is a long distance runner, which dovetails nicely with her other hobby of baking cakes and making ice cream. She has an amazing husband and son.
+    bio: Kim Moir works at Mozilla as a Staff Release Engineer. Kim’s interests lie in optimizing large distributed systems, specifically debugging and optimizing high volume continuous integration farms. Her favourite thing to do is to replace an existing system with a new one until the legacy system is a tiny shell of its former self and it can be deleted, with no downtime. Kim has spoken at conferences and written extensively about open source and release engineering at scale on her blog https://kimmoir.blog. She is an advocate for more inclusive and diverse culture within the industry, and practices for more effective teams.<br><br> Outside of work, Kim is a long distance runner, which dovetails nicely with her other hobby of baking cakes and making ice cream. She has an amazing husband and son.
     pic: kim.jpg
     title: 
     abstract: 
@@ -79,7 +79,38 @@ invspeakers:
     title: 
     abstract: 
 
-  - name: Kaitlyn Yong
+  - name: Julian Squires
+    twitter: 
+    website: https://www.cipht.net/
+    bio: Julian is an eccentric layabout in Montreal, Canada. He gets paid to slowly program computers fastly.
+    pic: julian.jpg
+    title: 
+    abstract: 
+
+  - name: Christian Joudrey
+    twitter: cjoudrey
+    bio: Christian is a self-taught software developer working on APIs at GitHub. At a young age, he discovered Visual Basic 6 on his home computer and immediately fell in love with programming. When he is not reading about technology and programming, you may find him rock climbing, cooking or drinking a stout.
+    pic: christian.png
+    title: 
+    abstract: 
+
+  - name: Mahtab Sabet
+    twitter: 
+    website: http://mahtabsabet.com/
+    bio: Mahtab works as a Senior Software Engineer at Capital One in Toronto. Mahtab is a musical theater enthusiast and an avid gamer.
+    pic: mahtab.jpg
+    title: 
+    abstract: 
+
+  - name: Robert Fratila
+    twitter: 
+    website: http://aifredhealth.com/
+    bio: Robert Fratila is a Co-Founder and CTO at aifred health. He is very passionate about combining medicine and AI throughout his work and research. His work as a software developer at the Montreal Neurological Institute, integrating state-of-the-art machine learning models in health care, specifically brain imaging, has given him lots of experience in finding efficient solutions to complex problems. In his spare time, he has worked on several projects including a search engine, a brain-state classifier, full computer vision packages for autonomous underwater vehicles and a program that creates a predictive model for future patients diagnosed with Leukemia, just to name a few.<br><br> He has dedicated much of his time to giving workshops and talks about his work to student groups at McGill including the Neuroscience Undergraduates of McGill (NUM) and McGill Women in Computer Science (McWiCS). He is committed to spreading knowledge and demystifying the wonderful field of machine learning.
+    pic: robert.jpg
+    title: 
+    abstract: 
+
+  - name: Mike Hoye
     twitter: 
     bio: 
     pic: 
@@ -93,35 +124,7 @@ invspeakers:
     title: 
     abstract: 
 
-  - name: Mahtab Sabet
-    twitter: 
-    bio: 
-    pic: 
-    title: 
-    abstract: 
-
-  - name: Christian Joudrey
-    twitter: 
-    bio: 
-    pic: 
-    title: 
-    abstract: 
-
-  - name: Mike Hoye
-    twitter: 
-    bio: 
-    pic: 
-    title: 
-    abstract: 
-
-  - name: Robert Fratila
-    twitter: 
-    bio: 
-    pic: 
-    title: 
-    abstract: 
-
-  - name: Julian Squires
+  - name: Kaitlyn Yong
     twitter: 
     bio: 
     pic: 

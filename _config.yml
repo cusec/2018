@@ -8,7 +8,7 @@ description: > # this means to ignore newlines until "baseurl:"
   The Canadian University Software Engineering Conference (CUSEC) is a conference organized by
   Post-Secondary students for everyone!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://2018.cusec.net" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://2018.cusec.net" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: cusec
 instagram_username: cusec_official
 facebook_username: CUSEC-9884406702
