@@ -393,7 +393,7 @@ td .note {
   .sponsor-header {
     margin: 3rem 0
   }
-  
+
   .sponsor-lead {
     font-weight: normal;
     margin-bottom: 3rem;
@@ -416,9 +416,12 @@ td .note {
     margin: 0 auto;
     text-align: center;
     padding-bottom: 30px;
+    img {
+      max-width: 50%;
+    }
     @media (min-width: 768px) {
       img {
-        height: 50%;
+        max-width: 75%;
       }
     }
   }
@@ -432,20 +435,21 @@ td .note {
     position: relative;
     display: block;
     padding-bottom: 5px;
+    margin-bottom: 1.5em;
     line-height: 1.5;
 
     &:after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 80px;
-  height: 2px;
-  background: $brand-dark-pink;
-  left: 50%;
-  margin-left: -40px;
-  bottom: 0;
-}
-}
+      content: "";
+      position: absolute;
+      display: block;
+      width: 80px;
+      height: 2px;
+      background: $brand-dark-pink;
+      left: 50%;
+      margin-left: -40px;
+      bottom: 0;
+    }
+  }
 }
 
 #team-page {
