@@ -1,32 +1,36 @@
 partner:
   - logo: ibm.png
     alt: IBM Logo
-    url: http://www.ibm.com/careers/
+    url: https://www.ibm.com/careers/
 
 gold:
   - logo: rbc.png
     alt: Royal Bank of Canada Logo
-    url: http://www.rbc.com/careers/
+    url: https://www.rbc.com/careers/
 
   - logo: wind.png
     alt: Wind River Logo
-    url: http://www.windriver.com/
+    url: https://www.windriver.com/
 
   - logo: cae.png
     alt: CAE Logo
-    url: http://www.cae.com/
+    url: https://www.cae.com/
 
   - logo: yelp.png
     alt: Yelp logo
     url: https://www.yelp.com/
 
-  - logo: morganstanley.png
-    alt: Morgan Stanley Logo
-    url: http://www.morganstanley.com/
+  - logo: kinaxis.png
+    alt: Kinaxis Logo
+    url: https://kinaxis.com
 
   - logo: csec.png
     alt: CSEC Logo
-    url:
+    url: https://www.cse-cst.gc.ca/
+
+  - logo: morganstanley.png
+    alt: Morgan Stanley Logo
+    url: https://www.morganstanley.com/
 
 silver:
   - logo: ubisoft.png
@@ -43,7 +47,7 @@ silver:
 
   - logo: sap.png
     alt: SAP Logo
-    url:
+    url: https://www.sap.com
 
   - logo: shopify.png
     alt: Shopify Logo
