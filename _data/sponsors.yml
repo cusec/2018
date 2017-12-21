@@ -37,10 +37,6 @@ silver:
     alt: Ubisoft
     url: https://www.ubisoft.com
 
-  - logo: bmo.png
-    alt: Bank of Montreal Logo
-    url: https://www.bmo.com/main/personal
-
   - logo: capitalone.png
     alt: Capital One Logo
     url:
@@ -54,10 +50,11 @@ silver:
     url: https://shopify.com
 
 bronze:
-  - logo: stickermule.png
-    alt: Sticker Mule Logo
-    url: https://www.stickermule.com/
-
   - logo: spiria.png
     alt: Spiria logo
     url: 
+
+friends:
+  - logo: stickermule.png
+    alt: Sticker Mule Logo
+    url: https://www.stickermule.com/supports/hackathons

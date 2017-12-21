@@ -71,6 +71,22 @@ permalink: /sponsors/
                     {% endfor %}
             </div>
         </div>
+        </div>
+
+        <div class="row row-buff">
+            <div class="col-md-12 text-center">
+                <h2 class="to-animate">Friends of CUSEC</h2>
+                <div class="row justify-content-center">
+                    {% for sponsor in site.data.sponsors.friends %}
+                    <div class="col-xs-6 col-sm-4 col-md-4">
+                        <div class="sponsor-item">
+        					{% if sponsor.url %}<a href="{{ sponsor.url }}">{% endif %}<img src="{{ "/assets/sponsors/" }}{{ sponsor.logo }}" alt="{{ sponsor.alt_text }}" class="img-fluid center-block">{% if sponsor.url %}</a>{% endif %}
+                        </div>
+        			</div>
+                    {% endfor %}
+            </div>
+        </div>
+        </div>
 </div>
 
     </div>
