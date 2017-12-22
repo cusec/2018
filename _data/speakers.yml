@@ -7,13 +7,6 @@ keynotes:
     title: 
     abstract: 
 
-  - name: kf Fellows
-    twitter: kf
-    bio: kf is a coder based in Portland, OR who’s enthusiastic about data, functional programming, distributed systems, and distributed teams!<br><br> Currently, she works as a data engineer at Splice, building data infrastructure to deliver insights about how musicians use software to create. Previously, she’s worked on data infrastructure, platform engineering, and observability at Simple, Comcast, and various startups around the Bay Area.<br><br> In her spare time, kf has enjoyed organizing events that make learning new coding skills more accessible, like ClojureBridge, Women Who Code, Papers We Love, PLIBMTTBHGATY, and Open Source Bridge. She also tweets a lot of selfies with her cat.
-    pic: kf.jpg
-    title: 
-    abstract: 
-
   - name: Karen Sandler
     twitter: 
     bio: 
@@ -34,13 +27,6 @@ keynotes:
     pic: 
     title: 
     abstract: 
-
-  - name: TBA
-    twitter: 
-    bio: 
-    pic: 
-    title: 
-    abstract:
 
 
 invspeakers:
