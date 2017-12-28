@@ -2,8 +2,15 @@ keynotes:
   - name: Vadim Makarov
     twitter: 
     website: http://www.vad1.com/lab/
-    bio: Prof. Vadim Makarov works with quantum cryptography. He heads the Quantum hacking lab http://www.vad1.com/lab/ at the University of Waterloo, where he and his students try to break implementations of quantum cryptography despite all the claims that it is unbreakable :).
+    bio: Dr. Vadim Makarov works with quantum cryptography. He heads the Quantum hacking lab http://www.vad1.com/lab/ at the University of Waterloo, where he and his students try to break implementations of quantum cryptography despite all the claims that it is unbreakable :).
     pic: vadim.jpg
+    title: 
+    abstract: 
+    
+  - name: David Lyon
+    twitter: 
+    bio: About thirty years ago I started to realize the the so-called 'microelectronics revolution' was likely to have profound effects on society, especially as personal data would become much more malleable, store-able and retrievable. That launched me into researching surveillance as a mushrooming feature of today's world. I'm neither a paranoid nor a Pollyanna but I do believe some urgent thought and action is needed on everyday online interactions and data justice.
+    pic: david.jpg
     title: 
     abstract: 
 
@@ -32,7 +39,7 @@ keynotes:
 invspeakers:
   - name: Kim Moir
     twitter: kmoir
-    bio: Kim Moir works at Mozilla as a Staff Release Engineer. Kim’s interests lie in optimizing large distributed systems, specifically debugging and optimizing high volume continuous integration farms. Her favourite thing to do is to replace an existing system with a new one until the legacy system is a tiny shell of its former self and it can be deleted, with no downtime. Kim has spoken at conferences and written extensively about open source and release engineering at scale on her blog https://kimmoir.blog. She is an advocate for more inclusive and diverse culture within the industry, and practices for more effective teams.<br><br> Outside of work, Kim is a long distance runner, which dovetails nicely with her other hobby of baking cakes and making ice cream. She has an amazing husband and son.
+    bio: Kim Moir works at Mozilla as a Staff Release Engineer.  Kim’s interests lie in optimizing large distributed systems, specifically debugging and optimizing high volume continuous integration farms.  Her favourite thing to do is to replace an existing system with a new one until the legacy system is a tiny shell of its former self and it can be deleted, with no downtime. Kim has spoken at conferences and written extensively about open source and release engineering at scale on her blog https://kimmoir.blog.  She is an advocate for more inclusive and diverse culture within the industry, and practices for more effective teams.<br><br>Outside of work, Kim is a long distance runner, which dovetails nicely with her other hobby of baking cakes and making ice cream. She has an amazing husband and son.
     pic: kim.jpg
     title: 
     abstract: 
@@ -46,7 +53,7 @@ invspeakers:
 
   - name: Jacob Cook
     twitter: peakwinter
-    bio: Jacob Cook is a developer, Python/JS enthusiast and tech rabble-rouser based in Montréal. His fields of interest include staying on the cutting-edge of Web development practices, building software to help user privacy and exploring technology allowing for the decentralization of the Internet. He is the author of several Python libraries as well as the lead developer behind the arkOS self-hosted server project, which was featured in VentureBeat, Fast Company, Der Spiegel and many other tech twitter sites. Jacob currently works as a software developer and project manager for Savoir-faire Linux, a consulting firm that brings the power of open source technologies like Python and Django to the world of enterprise and government software applications.
+    bio: Jacob Cook is a developer, Python/JS enthusiast and tech rabble-rouser based in Montréal. His fields of interest include staying on the cutting-edge of Web development practices, building software to help user privacy and exploring technology allowing for the decentralization of the Internet. He is the author of several Python libraries as well as the lead developer behind the arkOS self-hosted server project, which was featured in VentureBeat, Fast Company, Der Spiegel and many other tech media sites. Jacob currently works as a software developer and project manager for Savoir-faire Linux, a consulting firm that brings the power of open source technologies like Python and Django to the world of enterprise and government software applications.
     pic: jacob.jpeg
     title: 
     abstract: 
@@ -95,6 +102,13 @@ invspeakers:
     pic: robert.jpg
     title: 
     abstract: 
+    
+  - name: Kaitlyn Yong
+    twitter: kaitlynyong
+    bio: Kaitlyn is a Computer Science student at the University of Waterloo with a double minor in Entrepreneurship and Environmental Management. She’s interned at a variety of companies including Yelp, Shopify, Viki, and Wirkn as a Software Engineer or Product Manager. Kaitlyn is also a regular speaker at various hackathons and conferences such as Wonder Women Tech, UNCF HBCU Innovation Summit, and InspireHacks.<br><br>In her spare time, she plays varsity ultimate frisbee, organizes Hack the North, leads a technology empowerment initiative, acts as an ambassador for Sequoia Capital, and is a board member for two national non-for-profit organizations.
+    pic: kaitlyn.png
+    title: 
+    abstract: 
 
   - name: Mike Hoye
     twitter: 
@@ -104,13 +118,6 @@ invspeakers:
     abstract: 
 
   - name: Arshia Mufti
-    twitter: 
-    bio: 
-    pic: 
-    title: 
-    abstract: 
-
-  - name: Kaitlyn Yong
     twitter: 
     bio: 
     pic: 
