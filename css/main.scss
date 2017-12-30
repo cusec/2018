@@ -469,6 +469,27 @@ td .note {
     margin-bottom: 8rem;
   }
 
+  .speaker-talk{
+    h3{
+        color: #db2186;
+        margin-bottom: 1em;
+    }
+    hr{
+        border-top: 1px solid #db2186;
+        margin: 0;
+        width: 75px;
+        background: none;
+        margin-bottom: 1em;
+        margin-left: 40%;
+    }
+    color: #fff;
+    padding-top: 5rem;
+    @media (min-width: 768px){
+        padding-top: 0;
+        text-align: center;
+    }
+}
+
   .team-pic{
     figure {
         display: block;

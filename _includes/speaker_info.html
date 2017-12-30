@@ -3,10 +3,12 @@
             <div class="team-pic text-center" id="{{ speaker.twitter }}">
                 <figure><img src="{{ "/assets/speakers/" }}{{ speaker.pic | default: 'placeholder.png' }}" alt="Image" class="rounded-circle img-fluid"></figure>
                 <h3><strong>{{ speaker.name }}</strong></h3>
-                {% if speaker.twitter %}
+                {% if speaker.twitter and speaker.website %}
                 <a href="https://twitter.com/{{ speaker.twitter }}"><span class="spk-social-media"><em>@{{ speaker.twitter }}</em></span></a>
-                {% endif %}
-                {% if speaker.website %}
+                <a href="{{ speaker.website }}"><span class="spk-social-media"><em>Website</em></span></a>
+                {% elsif speaker.twitter %}
+                <a href="https://twitter.com/{{ speaker.twitter }}"><span class="spk-social-media"><em>@{{ speaker.twitter }}</em></span></a>
+                {% elsif speaker.website %}
                 <a href="{{ speaker.website }}"><span class="spk-social-media"><em>Website</em></span></a>
                 {% endif %}
                 {% if speaker.social %}
@@ -19,8 +21,15 @@
             </div>
         </div>
         <div class="col-md-6">
+            {% if speaker.title %}
+                <div class="speaker-talk text-left">
+                    <h3>{{ speaker.title | default: 'Talk title coming soon!'}}</h3>
+                    <p>{{ speaker.abstract | default: 'Description coming soon!'}}</p>
+                    <hr class="to-animate"/>
+                </div>
+            {% endif %}
             <div class="team-person-bio text-left">
-                <p class="bio">{{ speaker.bio | default: 'Description coming soon!' }}</p>
+                <p class="bio">{{ speaker.bio | default: 'Bio coming soon!' }}</p>
             </div>
         </div>
     </div>
