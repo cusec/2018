@@ -1,6 +1,7 @@
 keynotes:
   - name: Vadim Makarov
     twitter: 
+    section: vadim
     website: http://www.vad1.com/lab/
     bio: Dr. Vadim Makarov works with quantum cryptography. He heads the Quantum hacking lab http://www.vad1.com/lab/ at the University of Waterloo, where he and his students try to break implementations of quantum cryptography despite all the claims that it is unbreakable :).
     pic: vadim.jpg
@@ -9,6 +10,7 @@ keynotes:
     
   - name: David Lyon
     twitter: 
+    section: david
     bio: About thirty years ago I started to realize the the so-called 'microelectronics revolution' was likely to have profound effects on society, especially as personal data would become much more malleable, store-able and retrievable. That launched me into researching surveillance as a mushrooming feature of today's world. I'm neither a paranoid nor a Pollyanna but I do believe some urgent thought and action is needed on everyday online interactions and data justice.
     pic: david.jpg
     title: 
@@ -16,6 +18,7 @@ keynotes:
 
   - name: Karen Sandler
     twitter: 
+    section: karen
     bio: 
     pic: 
     title: 
@@ -23,6 +26,7 @@ keynotes:
 
   - name: Eva Galperin
     twitter: 
+    section: eva
     bio: 
     pic: 
     title: 
@@ -30,6 +34,7 @@ keynotes:
 
   - name: Lori Olson
     twitter: 
+    section: lori
     bio: 
     pic: 
     title: "Software: Profession, Craft or Passion?"
@@ -37,6 +42,7 @@ keynotes:
 
   - name: Steve Klabnik
     twitter: 
+    section: steve
     bio: 
     pic: 
     title: 
@@ -46,6 +52,7 @@ keynotes:
 invspeakers:
   - name: Kim Moir
     twitter: kmoir
+    section: kim
     website: https://kimmoir.blog/
     bio: Kim Moir works at Mozilla as a Staff Release Engineer.  Kim’s interests lie in optimizing large distributed systems, specifically debugging and optimizing high volume continuous integration farms.  Her favourite thing to do is to replace an existing system with a new one until the legacy system is a tiny shell of its former self and it can be deleted, with no downtime. Kim has spoken at conferences and written extensively about open source and release engineering at scale on her blog https://kimmoir.blog.  She is an advocate for more inclusive and diverse culture within the industry, and practices for more effective teams.<br><br>Outside of work, Kim is a long distance runner, which dovetails nicely with her other hobby of baking cakes and making ice cream. She has an amazing husband and son.
     pic: kim.jpg
@@ -54,6 +61,7 @@ invspeakers:
 
   - name: Jake Pittis
     twitter: jpittis
+    section: jake
     bio: In between teaching his team about jazz, Jake can be found on the Production Engineering Team at Shopify. He's worked preparing the platform for massive celebrity sales, making Shopify run out of multiple data centres, and the resiliency stack to protect the app against misbehaving resources, and itself. Canadian Geese are his favourite animals. While the hipster movement of his nation has recently taken to eating these poor birds, Jake has yet to taste one. And never plans to. We don't eat our friends.
     pic: jake.jpg
     title: Resilient to Failure
@@ -61,6 +69,7 @@ invspeakers:
 
   - name: Jacob Cook
     twitter: peakwinter
+    section: jacob
     bio: Jacob Cook is a developer, Python/JS enthusiast and tech rabble-rouser based in Montréal. His fields of interest include staying on the cutting-edge of Web development practices, building software to help user privacy and exploring technology allowing for the decentralization of the Internet. He is the author of several Python libraries as well as the lead developer behind the arkOS self-hosted server project, which was featured in VentureBeat, Fast Company, Der Spiegel and many other tech media sites. Jacob currently works as a software developer and project manager for Savoir-faire Linux, a consulting firm that brings the power of open source technologies like Python and Django to the world of enterprise and government software applications.
     pic: jacob.jpeg
     title: "The Stoic Geek: Finding Your Way as a New Developer"
@@ -68,6 +77,7 @@ invspeakers:
 
   - name: Nicolas Le Roux
     twitter: le_roux_nicolas
+    section: nico
     bio: Nicolas Le Roux got an MSc in Applied Maths from Ecole Centrale Paris and an MSc in Maths, Learning and Vision from ENS Cachan. He got his PhD in 2008 from University of Montreal where he worked with Yoshua Bengio on neural networks in general and their optimisation in particular. He then moved to Microsoft Research Cambridge to work on generative models of images with John Winn. In 2010, he joined Inria in Francis Bach's team to work on large-scale convex optimisation. From 2012 to 2017, he created and managed the research team at Criteo in Paris. He joined Google Brain Montreal in 2017 where he now works on large-scale optimization and reinforcement learning.
     pic: nico.jpg
     title: Teaching Machines to Learn
@@ -75,6 +85,7 @@ invspeakers:
 
   - name: Jim Duey
     twitter: toccata_lang
+    section: jim
     bio: I've been a professional programmer for close to 30 years working on software from Assembly up through telecom infrastructure across a range of industries using a variety of languages. I'm currently a fan of Clojure and I'm creating a new language inspired by Clojure that compiles to native executables.
     pic: jim.jpg
     title: Language as a Tool
@@ -82,6 +93,7 @@ invspeakers:
 
   - name: Julian Squires
     twitter: 
+    section: julian
     website: https://www.cipht.net/
     bio: Julian is an eccentric layabout in Montreal, Canada. He gets paid to slowly program computers fastly.
     pic: julian.jpg
@@ -90,6 +102,7 @@ invspeakers:
 
   - name: Christian Joudrey
     twitter: cjoudrey
+    section: christian
     bio: Christian is a self-taught software developer working on APIs at GitHub. At a young age, he discovered Visual Basic 6 on his home computer and immediately fell in love with programming. When he is not reading about technology and programming, you may find him rock climbing, cooking or drinking a stout.
     pic: christian.png
     title: Writing NES Games With Assembly
@@ -97,6 +110,7 @@ invspeakers:
 
   - name: Mahtab Sabet
     twitter: 
+    section: mahtab
     website: http://mahtabsabet.com/
     bio: Mahtab works as a Senior Software Engineer at Capital One in Toronto. Mahtab is a musical theater enthusiast and an avid gamer.
     pic: mahtab.jpg
@@ -105,6 +119,7 @@ invspeakers:
 
   - name: Robert Fratila
     twitter: 
+    section: robert
     website: http://aifredhealth.com/
     bio: Robert Fratila is a Co-Founder and CTO at aifred health. He is very passionate about combining medicine and AI throughout his work and research. His work as a software developer at the Montreal Neurological Institute, integrating state-of-the-art machine learning models in health care, specifically brain imaging, has given him lots of experience in finding efficient solutions to complex problems. In his spare time, he has worked on several projects including a search engine, a brain-state classifier, full computer vision packages for autonomous underwater vehicles and a program that creates a predictive model for future patients diagnosed with Leukemia, just to name a few.<br><br> He has dedicated much of his time to giving workshops and talks about his work to student groups at McGill including the Neuroscience Undergraduates of McGill (NUM) and McGill Women in Computer Science (McWiCS). He is committed to spreading knowledge and demystifying the wonderful field of machine learning.
     pic: robert.jpg
@@ -113,6 +128,7 @@ invspeakers:
     
   - name: Kaitlyn Yong
     twitter: kaitlynyong
+    section: kaitlyn
     bio: Kaitlyn is a Computer Science student at the University of Waterloo with a double minor in Entrepreneurship and Environmental Management. She’s interned at a variety of companies including Yelp, Shopify, Viki, and Wirkn as a Software Engineer or Product Manager. Kaitlyn is also a regular speaker at various hackathons and conferences such as Wonder Women Tech, UNCF HBCU Innovation Summit, and InspireHacks.<br><br>In her spare time, she plays varsity ultimate frisbee, organizes Hack the North, leads a technology empowerment initiative, acts as an ambassador for Sequoia Capital, and is a board member for two national non-for-profit organizations.
     pic: kaitlyn.png
     title: From Software Engineer to Product Manager
@@ -120,6 +136,7 @@ invspeakers:
 
   - name: Mike Hoye
     twitter: 
+    section: mike
     bio: 
     pic: 
     title: Accessible Code And Accessible Communities
@@ -127,6 +144,7 @@ invspeakers:
 
   - name: Arshia Mufti
     twitter: 
+    section: arshia
     bio: 
     pic: 
     title: How Errors In Your Data Are Detected (and Fixed!)

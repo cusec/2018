@@ -1,6 +1,6 @@
 <div class="row justify-content-center align-items-center">
         <div class="col-md-3 col-md-offset-2">
-            <div class="team-pic text-center" id="{{ speaker.twitter }}">
+            <div class="team-pic text-center" id="{{ speaker.section }}">
                 <figure><img src="{{ "/assets/speakers/" }}{{ speaker.pic | default: 'placeholder.png' }}" alt="Image" class="rounded-circle img-fluid"></figure>
                 <h3><strong>{{ speaker.name }}</strong></h3>
                 {% if speaker.twitter and speaker.website %}
