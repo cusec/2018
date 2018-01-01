@@ -6,10 +6,12 @@ permalink: /schedule/
 
 <div class="container-fluid schedule-page">
   <div class="text-center btn-group-days">
-    <a href="#day1" class="btn btn-day1 btn-default">Thursday</a>
-    <a href="#day2" class="btn btn-day2 btn-default">Friday</a>
-    <a href="#day3" class="btn btn-day3 btn-default">Saturday</a>
+    <a href="#day1" class="btn btn-primary">Thursday</a>
+    <a href="#day2" class="btn btn-primary">Friday</a>
+    <a href="#day3" class="btn btn-primary">Saturday</a>
   </div>
+
+  <h1 class="gen-lead">Stay tuned as we add more events and workshops!</h1>
 
   <!-- Day 1 -->
   <div class="row justify-content-center">
@@ -24,118 +26,105 @@ permalink: /schedule/
           <tbody>
           <tr>
             <td>8:00 AM</td>
-            <td rowspan="2">Registration</td>
-            <td rowspan="2">Breakfast</td>
+            <td colspan="2">Registration</td>
           </tr>
           <tr>
-            <td>&nbsp;</td>
-          </tr>
-          <tr>
-            <td colspan="3">&nbsp;</td>
+            <td>9:00 AM</td>
+            <td colspan="2">Light Breakfast</td>
           </tr>
           <tr>
             <td>9:30 AM</td>
             <td colspan="2">Opening Remarks</td>
           </tr>
-           <tr>
+          <tr>
             <td>10:00 AM</td>
-            <td rowspan="2" colspan="2" class="keynote">
-              <a href="/speakers.html#julia_evans">Julia Evans</a><br>
+            <td colspan="2" class="talk">
+              <a href="{{"/speakers/#vadim" | prepend: site.baseurl }}">Vadim Makarov</a><br>
               <span class="note">Keynote</span>
             </td>
           </tr>
           <tr>
-            <td>&nbsp;</td>
-          </tr>
-          <tr>
-            <td>11:05 AM</td>
-            <td colspan="2">Sponsor Introduction</td>
-          </tr>
-          <tr>
-            <td>11:25 AM</td>
+            <td>10:50 AM</td>
             <td colspan="2" class="talk">
-              <a href="/speakers.html#simon_eskildsen">Simon Eskildsen</a>
+              <a href="{{"/speakers/#jim" | prepend: site.baseurl }}">Jim Duey</a>
+            </td>
+          </tr>
+          <tr>
+            <td>11:15 AM</td>
+            <td class="talk">
+              <a href="{{"/speakers/#jake" | prepend: site.baseurl }}">Jake Pittis</a>
+            </td>
+            <td rowspan="3" class="workshop">
+              IBM Workshop
+            </td>
+          </tr>
+          <tr>
+            <td>11:45 AM</td>
+            <td class="talk">
+              Speakers Q&amp;A panel
             </td>
           </tr>
           <tr>
             <td>12:00 PM</td>
-            <td colspan="2" class="talk">
-              <a href="/speakers.html#alex_selesse">Alex Selesse</a>
-            </td>
+            <td rowspan="3">Lunch</td>
           </tr>
           <tr>
-            <td>12:30 PM</td>
-            <td rowspan="3">Lunch Break</td>
-            <td></td>
+            <td>12:15 PM</td>
           </tr>
           <tr>
-            <td>1:00 PM</td>
+            <td>12:45 PM</td>
             <td rowspan="2" class="event">
               Resume Review<br>
-              <span class="note">IBM Room</span>
             </td>
           </tr>
           <tr>
-            <td>&nbsp;</td>
+            <td>2:45 PM</td>
+            <td class="event">
+              Sponsor Intros<br>
+            </td>
           </tr>
           <tr>
-            <td>2:00 PM</td>
-            <td colspan="2" rowspan="3">Career Fair</td>
+            <td>2:05 PM</td>
+            <td colspan="2" class="event">Career Fair</td>
           </tr>
           <tr>
-            <td>&nbsp;</td>
+            <td>3:00 PM</td>
+            <td colspan="2" class="event">
+              Democamp
+            </td>
           </tr>
           <tr>
-            <td>&nbsp;</td>
-          </tr>
-          <tr>
-            <td>3:30 PM</td>
+            <td>4:15 PM</td>
             <td colspan="2" class="talk">
-              <a href="/speakers.html#dann_toliver">Dann Toliver</a>
-            </td>
-          </tr>
-          <tr>
-            <td>4:05PM</td>
-            <td colspan="2" class="talk">
-              <a href="/speakers.html#julie_hache">Julie Hach&eacute;
-            </td>
-          </tr>
-          <tr>
-            <td>4:40 PM</td>
-            <td colspan="2" rowspan="2" class="keynote">
-              <a href="/speakers.html#carina_zona">Carina C. Zona</a><br>
+              <a href="{{"/speakers/#david" | prepend: site.baseurl }}">David Lyon</a><br>
               <span class="note">Keynote</span>
             </td>
           </tr>
           <tr>
-            <td>&nbsp;</td>
-          </tr>
-          <tr>
-            <td>5:40 PM</td>
-            <td colspan="2">End of Talks</td>
-          </tr>
-          <tr>
-            <td colspan="3">&nbsp;</td>
-          </tr>
-          <tr>
-            <td>7:00 PM</td>
-            <td colspan="2" rowspan="3" class="event">
-              Democamp<br>
-              <span class="note">IBM Room</span>
+            <td>5:00 PM</td>
+            <td colspan="2" class="talk">
+              <a href="{{"/speakers/#julian" | prepend: site.baseurl }}">Julian Squires</a>
             </td>
           </tr>
           <tr>
-            <td>&nbsp;</td>
+            <td>5:25 PM</td>
+            <td colspan="2" class="talk">
+              <a href="{{"/speakers/#kim" | prepend: site.baseurl }}">Kim Moir</a><br>
+            </td>
           </tr>
           <tr>
-            <td>&nbsp;</td>
+            <td>5:45 PM</td>
+            <td colspan="2" rowspan="2" class="talk">Speakers Q&amp;A panel</td>
+          </tr>
+          <tr>
+            <td>6:00 PM</td>
           </tr>
           <tr>
             <td>9:00 PM</td>
             <td colspan="2" class="event">
-              Shopify Pub Night<br>
+              Pub Night<br>
               <span class="note">
-                <a href="https://goo.gl/maps/BGFkwryZrF62">Les 3 Brasseurs</a>
+                <a href="https://goo.gl/maps/LQcXQ6RfAKz">Pub St. Paul</a>
               </span>
             </td>
           </tr>
@@ -158,106 +147,94 @@ permalink: /schedule/
           <tbody>
           <tr>
             <td>9:00 AM</td>
-            <td rowspan="2">Registration</td>
-            <td rowspan="2">Breakfast</td>
-          </tr>
-          <tr>
-            <td>&nbsp;</td>
+            <td colspan="2" >Breakfast</td>
           </tr>
           <tr>
             <td>10:00 AM</td>
-            <td class="talk">
-              <a href="/speakers.html#robin_grosset">Robin Grosset</a>
-            </td>
-            <td rowspan="2" class="workshop">
-              CSE Workshop<br>
-              <span class="note">Workshop Room</span>
+            <td colspan="2" class="talk">
+              <a href="{{"/speakers/#jacob" | prepend: site.baseurl }}">Jacob Cook</a>
             </td>
           </tr>
           <tr>
-            <td>10:35 AM</td>
-            <td class="talk">
-              <a href="/speakers.html#josh_matthews">Josh Matthews</a>
+            <td>10:25 AM</td>
+            <td colspan="2" class="talk">
+              <a href="{{"/speakers/#kaitlyn" | prepend: site.baseurl }}">Kaitlyn Yong</a>
             </td>
           </tr>
           <tr>
-            <td>11:10 AM</td>
-            <td rowspan="2" colspan="2" class="keynote">
-              <a href="/speakers.html#michael_bernstein">Michael Bernstein</a><br>
+            <td>10:50 AM</td>
+            <td colspan="2" class="talk">
+              <a href="{{"/speakers/#lori" | prepend: site.baseurl }}">Lori M. Olson</a><br>
               <span class="note">Keynote</span>
             </td>
           </tr>
           <tr>
-            <td>&nbsp;</td>
+            <td>11:30 PM</td>
+            <td class="talk">Speakers Q&amp;A panel</td>
+            <td rowspan="3" class="workshop">
+              RBC Workshop
+            </td>
           </tr>
           <tr>
-            <td>12:10 PM</td>
-            <td rowspan="2">Lunch Break</td>
-            <td class="event">
-              CUSEC Ladies<br>
-              <span class="note">IBM Room</span>
-            </td>
+            <td>11:45 AM</td>
+            <td rowspan="2" class="event">Lightning Talks</td>
+          </tr>
+          <tr>
+            <td>12:30 PM</td>
+          </tr>
+          <tr>
+            <td>12:45 PM</td>
+            <td rowspan="2">Lunch</td>
           </tr>
           <tr>
             <td>1:00 PM</td>
-            <td rowspan="3" class="workshop">
-              GM Workshop<br>
-              <span class="note">Workshop Room</span>
-            </td>
-          </tr>
-          <tr>
-            <td>1:30 PM</td>
-            <td class="event">Lightning Talks</td>
+            <td class="event">Diversity discussion</td>
           </tr>
           <tr>
             <td>2:00 PM</td>
-            <td rowspan="3">Career Fair</td>
+            <td rowspan="3" class="event">Career Fair</td>
           </tr>
           <tr>
-            <td>2:30 PM</td>
-            <td rowspan="3" class="workshop">
-              Capital One Workshop<br>
-              <span class="note">Workshop Room</span>
+            <td>3:00 PM</td>
+            <td rowspan="2" class="workshop">
+             Kinaxis Workshop
             </td>
-          </tr>
-          <tr>
-            <td>&nbsp;</td>
           </tr>
           <tr>
             <td>3:30 PM</td>
-            <td class="talk">
-              <a href="/speakers.html#laurie_hendren">Laurie Hendren</a>
-            </td>
           </tr>
           <tr>
-            <td>4:05PM</td>
-            <td colspan="2" class="talk">
-              <a href="/speakers.html#lucille_hua">Lucille Hua</a>
-            </td>
+            <td>4:00 PM</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>4:15 PM</td>
+            <td colspan="2" class="talk"><a href="{{"/speakers/#mike" | prepend: site.baseurl }}">Mike Hoye</a></td>
           </tr>
           <tr>
             <td>4:40 PM</td>
-            <td colspan="2" rowspan="3" class="workshop">
-              IBM Workshop<br>
-              <span class="note">IBM Room</span>
-            </td>
+            <td colspan="2" rowspan="2" class="talk"><a href="{{"/speakers/#mahtab" | prepend: site.baseurl }}">Mahtab Sabet</a></td>
           </tr>
           <tr>
-            <td>&nbsp;</td>
+            <td>5:00 PM</td>
           </tr>
           <tr>
-            <td>&nbsp;</td>
+            <td>5:05 PM</td>
+            <td colspan="2" class="talk"><a href="{{"/speakers/#karen" | prepend: site.baseurl }}">Karen Sandler</a></td>
           </tr>
           <tr>
-            <td>6:10 PM</td>
-            <td colspan="2">End of Talks</td>
+            <td>5:45 PM</td>
+            <td rowspan="2" colspan="2" class="talk">Speakers Q&amp;A panel</td>
           </tr>
           <tr>
-            <td colspan="3">&nbsp;</td>
+            <td>6:00 PM</td>
           </tr>
           <tr>
             <td>8:00 PM</td>
             <td colspan="2" rowspan="3" class="event">Games Night</td>
+          </tr>
+          <tr>
+            <td>10:30 PM</td>
           </tr>
           </tbody>
         </table>
@@ -278,96 +255,82 @@ permalink: /schedule/
           <tbody>
           <tr>
             <td>9:00 AM</td>
-            <td rowspan="2">Registration</td>
-            <td rowspan="2">Breakfast</td>
-          </tr>
-          <tr>
-            <td>&nbsp;</td>
+            <td colspan="2">Breakfast</td>
           </tr>
           <tr>
             <td>10:00 AM</td>
-            <td class="talk">
-              <a href="/speakers.html#fiona_condon">Fiona Condon</a>
-            </td>
-            <td rowspan="2" class="workshop">
-              Yelp Workshop<br>
-              <span class="note">Workshop Room</span>
+            <td colspan="2" class="talk">
+              <a href="{{"/speakers/#nico" | prepend: site.baseurl }}">Nicolas Le Roux</a>
             </td>
           </tr>
           <tr>
-            <td>10:35 AM</td>
-            <td class="talk">
-              <a href="/speakers.html#daniel_lanthier">Daniel Lanthier</a>
-            </td>
+            <td>10:25 AM</td>
+            <td colspan="2" class="talk"><a href="{{"/speakers/#arshia" | prepend: site.baseurl }}">Arshia Mufti</a></td>
           </tr>
           <tr>
-            <td>11:10 AM</td>
-            <td rowspan="2" colspan="2" class="keynote">
-              <a href="/speakers.html#kate_heddleston">Kate Heddleston</a><br>
+            <td>10:50 AM</td>
+            <td colspan="2" class="talk">
+              <a href="{{"/speakers/#steve" | prepend: site.baseurl }}">Steve Klabnik</a><br>
               <span class="note">Keynote</span>
             </td>
           </tr>
           <tr>
-            <td>&nbsp;</td>
+            <td>11:30 AM</td>
+            <td rowspan="2" colspan="2" class="talk">Speakers Q&amp;A panel</td>
           </tr>
           <tr>
-            <td>12:10 PM</td>
-            <td rowspan="3">Lunch Break</td>
+            <td>11:45 AM</td>
+          </tr>
+          <tr>
+            <td>12:00 PM</td>
+            <td rowspan="5">Lunch</td>
           </tr>
           <tr>
             <td>12:30 PM</td>
-            <td rowspan="2" class="event">
-              CUSEC 2017 Volunteer Info<br>
-              <span class="note">IBM Room</span>
-            </td>
           </tr>
           <tr>
-            <td>&nbsp;</td>
+            <td>12:45 PM</td>
+            <td class="event">Volunteer Info Session</td>
+          </tr>
+          <tr>
+            <td>1:15 PM</td>
           </tr>
           <tr>
             <td>1:30 PM</td>
-            <td rowspan="2">Career Fair</td>
-            <td rowspan="3" class="workshop">
-              RBC Workshop<br>
-              <span class="note">Workshop Room</span>
-            </td>
           </tr>
           <tr>
-            <td>&nbsp;</td>
+            <td>2:00 PM</td>
+            <td rowspan="3" colspan="2" class="event">Career Fair</td>
           </tr>
           <tr>
-            <td>2:30 PM</td>
-            <td>&nbsp;</td>
+            <td>2:15 PM</td>
           </tr>
           <tr>
-            <td>3:00 PM</td>
-            <td colspan="2" class="talk">
-              <a href="/speakers.html#nathan_powell">Nathan Powell</a>
-            </td>
+            <td>3:15 PM</td>
           </tr>
           <tr>
-            <td>3:35 PM</td>
-            <td colspan="2" class="talk">
-              <a href="/speakers.html#prakash_panangaden">Prakash Panangaden</a>
-            </td>
+            <td>3:30 PM</td>
           </tr>
           <tr>
-            <td>4:10PM</td>
-            <td colspan="2" rowspan="2" class="keynote">
-              <a href="/speakers.html#jeff_hodges">Jeff Hodges</a><br>
-              <span class="note">Keynote</span>
-            </td>
+            <td>3:50 PM</td>
+            <td colspan="2" class="talk"><a href="{{"/speakers/#robert" | prepend: site.baseurl }}">Robert Fratilla</a></td>
           </tr>
           <tr>
-            <td>&nbsp;</td>
+            <td>4:15 PM</td>
+            <td colspan="2" class="talk"><a href="{{"/speakers/#christian" | prepend: site.baseurl }}">Christian Joudrey</a></td>
           </tr>
           <tr>
-            <td>5:10 PM</td>
+            <td>4:45 PM</td>
+            <td colspan="2" class="talk"><a href="{{"/speakers/#eva" | prepend: site.baseurl }}">Eva Galperin</a><br>
+              <span class="note">Keynote</span></td>
+          </tr>
+          <tr>
+            <td>5:30 PM</td>
+            <td colspan="2" class="talk">Speakers Q&amp;A panel</td>
+          </tr>
+          <tr>
+            <td>5:45 PM</td>
             <td colspan="2">Closing Remarks</td>
-          </tr>
-          <tr>
-            <td>5:20 PM</td>
-            <td colspan="2">End of CUSEC 2016</td>
           </tr>
           </tbody>
         </table>

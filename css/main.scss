@@ -33,6 +33,13 @@
 
 }
 
+.gen-lead {
+  color: #fff;
+  font-weight: normal;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
 .about--section {
   background-image: url("../assets/imgs/about.png");
   min-height: 500px;
@@ -347,16 +354,16 @@
 }
 
 td.keynote {
-  background-color: rgba(46, 204, 113, 0.1);
+  background-color: rgba(213, 187, 255, 0.3);
 }
 td.talk {
-  background-color: rgba(26, 188, 156, 0.05)
+  background-color: rgba(255, 163, 247, 0.6)
 }
 td.workshop {
-  background-color: rgba(52, 152, 219, 0.1);
+  background-color: rgba(182, 211, 255, 0.5);
 }
 td.event {
-  background-color: rgba(155, 89, 182, 0.1);
+  background-color: rgba(199, 255, 189, 0.5);
 }
 td .note {
   color: #34495e;
