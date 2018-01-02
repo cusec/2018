@@ -4,8 +4,8 @@
                 <figure><img src="{{ "/assets/speakers/" }}{{ speaker.pic | default: 'placeholder.png' }}" alt="Image" class="rounded-circle img-fluid"></figure>
                 <h3><strong>{{ speaker.name }}</strong></h3>
                 {% if speaker.twitter and speaker.website %}
-                <a href="https://twitter.com/{{ speaker.twitter }}"><span class="spk-social-media"><em>@{{ speaker.twitter }}</em></span></a>
-                <a href="{{ speaker.website }}"><span class="spk-social-media"><em>Website</em></span></a>
+                <div class="spk-social-media"><a href="https://twitter.com/{{ speaker.twitter }}"><em>@{{ speaker.twitter }}</em></a> | <a href="{{ speaker.website }}"><em>Website</em></a></div>
+                
                 {% elsif speaker.twitter %}
                 <a href="https://twitter.com/{{ speaker.twitter }}"><span class="spk-social-media"><em>@{{ speaker.twitter }}</em></span></a>
                 {% elsif speaker.website %}

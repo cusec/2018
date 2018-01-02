@@ -17,20 +17,13 @@ keynotes:
     abstract: 
 
   - name: Karen Sandler
-    twitter: 
+    twitter: o0karen0o
+    website: https://sfconservancy.org
     section: karen
-    bio: 
-    pic: 
-    title: 
-    abstract: 
-
-  - name: Eva Galperin
-    twitter: 
-    section: eva
-    bio: 
-    pic: 
-    title: 
-    abstract: 
+    bio: "Karen M. Sandler is the executive director of the Software Freedom Conservancy, which is the nonprofit home of 46 projects, including Git, Etherpad, QEMU, Selenium and Inkscape (to name a few). Karen is known as a cyborg lawyer for her advocacy for free software, particularly in relation to the software on medical devices. Prior to joining Conservancy, she was executive director of the GNOME Foundation. Before that, she was general counsel of the Software Freedom Law Center. Karen co-organizes Outreachy, the award-winning outreach program for women globally and for people of color who are underrepresented in US tech. She is also pro bono counsel to the FSF and GNOME. Karen is a recipient of the O’Reilly Open Source Award and cohost of the oggcast Free as in Freedom."
+    pic: karen.jpg
+    title: Cyborgs Unite!
+    abstract: When Karen discovered at a young age that she had a life threatening heart condition, the last thing she expected was to have to worry about software. Now, with a heart device implanted in her body, she has come to understand not only how vulnerable medical devices are but how we are making critical choices about software that will have huge societal impact. Karen will also touch on potential avenues for accountability, transparency, and access to remedies as we hurtle towards an Internet of Things built on proprietary source code that prevents us from knowing exactly how these vital devices work, what data they are collecting and to what ends, what their vulnerabilities might be, and the extent to which their closed, proprietary nature keeps us from developing societal mechanisms and review processes to keep us safe.
 
   - name: Lori Olson
     twitter: 
@@ -39,6 +32,15 @@ keynotes:
     pic: 
     title: "Software: Profession, Craft or Passion?"
     abstract: Not everyone has the same understanding of just what a software engineering (or software development if you prefer) career is all about. Is it a profession?  Is it a craft? Or is it your life's passion? Why not all three?
+
+
+  - name: Eva Galperin
+    twitter: 
+    section: eva
+    bio: 
+    pic: 
+    title: 
+    abstract: 
 
   - name: Steve Klabnik
     twitter: 
@@ -134,6 +136,14 @@ invspeakers:
     title: From Software Engineer to Product Manager
     abstract: There's a chicken and egg problem that states "to become a Product Manager, you need to be a Product Manager." But hey, everyone has to start somewhere! So, what does it take to transition from a Software Engineer to a Product Manager? Find out in this talk as Kaitlyn Yong guides you through the basics of product management, how to position your technical skill set as an asset, and the interview process as a student.
 
+  - name: Arshia Mufti
+    twitter: arshia__
+    section: arshia
+    bio: Arshia is a fourth year computer science student at the University of Waterloo, a StarCon organizer, and an avid reader.
+    pic: arshia.jpg
+    title: How Errors In Your Data Are Detected (and Fixed!)
+    abstract: Whether it’s noise in a channel or scratches on a CD surface, errors in the movement and transmission of data are bound to occur. The message “I like rice!” could turn into “I like mice!”, or "1101" could turn into "1100". This behaviour can have many consequences, ranging from the bad (software will not work or run) to the very bad (software will do the *wrong* thing). This is where error correcting codes come in! They are used everywhere in communication technology—from CDs and iPods to RAM and deep space satellites. In this talk, I’ll discuss some of the challenges and mathematical techniques used in detecting and correcting errors in transmitted data.
+
   - name: Mike Hoye
     twitter: 
     section: mike
@@ -142,11 +152,4 @@ invspeakers:
     title: Accessible Code And Accessible Communities
     abstract: Over the last five years we've put a lot of work into making our Mozilla more accessible and participatory, not just in the product but in our codebase, documentation and community. I'd like to share what we've learned from that, and what you can do to help your project and the community around it grow.
 
-  - name: Arshia Mufti
-    twitter: 
-    section: arshia
-    bio: 
-    pic: 
-    title: How Errors In Your Data Are Detected (and Fixed!)
-    abstract: Whether it’s noise in a channel or scratches on a CD surface, errors in the movement and transmission of data are bound to occur. The message “I like rice!” could turn into “I like mice!”, or "1101" could turn into "1100". This behaviour can have many consequences, ranging from the bad (software will not work or run) to the very bad (software will do the *wrong* thing). This is where error correcting codes come in! They are used everywhere in communication technology—from CDs and iPods to RAM and deep space satellites. In this talk, I’ll discuss some of the challenges and mathematical techniques used in detecting and correcting errors in transmitted data.
- 
+   
