@@ -11,6 +11,7 @@ keynotes:
   - name: David Lyon
     twitter: 
     section: david
+    website: https://sscqueens.org/davidlyon
     bio: About thirty years ago I started to realize the the so-called 'microelectronics revolution' was likely to have profound effects on society, especially as personal data would become much more malleable, store-able and retrievable. That launched me into researching surveillance as a mushrooming feature of today's world. I'm neither a paranoid nor a Pollyanna but I do believe some urgent thought and action is needed on everyday online interactions and data justice.
     pic: david.jpg
     title: 
@@ -26,10 +27,11 @@ keynotes:
     abstract: When Karen discovered at a young age that she had a life threatening heart condition, the last thing she expected was to have to worry about software. Now, with a heart device implanted in her body, she has come to understand not only how vulnerable medical devices are but how we are making critical choices about software that will have huge societal impact. Karen will also touch on potential avenues for accountability, transparency, and access to remedies as we hurtle towards an Internet of Things built on proprietary source code that prevents us from knowing exactly how these vital devices work, what data they are collecting and to what ends, what their vulnerabilities might be, and the extent to which their closed, proprietary nature keeps us from developing societal mechanisms and review processes to keep us safe.
 
   - name: Lori Olson
-    twitter: 
+    twitter: wndxlori
     section: lori
-    bio: 
-    pic: 
+    website: https://wndx.com
+    bio: "Lori is a Ruby enthusiast of many years. Whether developing web applications with Rails (welltriever.com, kudosnow.com, scrippslifestylenetwork.com) or iOS apps with RubyMotion (WIMBY, coredatainmotion.com), she maintains that Ruby is the most productive, flexible, and fun-to-work-with tool for most software development needs.<br><br>With her well received Ruby on Rails for Real workshops, (ror4real.com/rails4ios.com) Lori has helped development teams from Calgary to Edinburgh and all the way to Melbourne Australia ramp up on Rails to deliver better quality products, faster.<br><br>As a card-carrying member of DevChix, teacher at RailsBridge, and a mentor, instructor and now chapter lead for Ladies Learning Code, Lori is helping to make a career in software development a more welcoming opportunity for all women."
+    pic: lori.jpg
     title: "Software: Profession, Craft or Passion?"
     abstract: Not everyone has the same understanding of just what a software engineering (or software development if you prefer) career is all about. Is it a profession?  Is it a craft? Or is it your life's passion? Why not all three?
 
