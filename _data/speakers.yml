@@ -1,4 +1,12 @@
 keynotes:
+  - name: Eva Galperin
+    twitter: evacide
+    section: eva
+    bio: "Eva Galperin is EFF's Director of Cybersecurity. Prior to 2007, when she came to work for EFF, Eva worked in security and IT in Silicon Valley and earned degrees in Political Science and International Relations from SFSU. Her work is primarily focused on providing privacy and security for vulnerable populations around the world. To that end, she has applied the combination of her political science and technical background to everything from organizing EFF's Tor Relay Challenge, to writing privacy and security training materials (including Surveillance Self Defense, the Digital First Aid Kit, the Security Education Companion), and publishing research on malware in Syria, Vietnam, Kazakhstan. She has presented her work at the Chaos Computer Congress, Black Hat, and USENIX Security and in 2017, VICE Motherboard named her Human of the Year. When she is not collecting new and exotic malware, she practices aerial circus arts and learning new languages."
+    pic: eva.jpg
+    title: Everything You Always Wanted to Know About Security Training, But Were Afraid to Ask
+    abstract: As more and more people become concerned about protecting their digital privacy and security, it often falls on engineers to explain best practices to their friends, family, and communities. Even if we're not being actively solicited for advice, some of us would like to go out into our communities and give them the benefit of our experience in digital security. This talk will cover the many potential pitfalls of doing this kind of training, give some hard-won advice on how to do things right, and introduce the audience to the resources they need in order to become good trainers, including the Security Education Companion.
+
   - name: Vadim Makarov
     twitter: 
     section: vadim
@@ -7,24 +15,6 @@ keynotes:
     pic: vadim.jpg
     title: Deployment of Quantum Cryptography
     abstract: The history of cryptography is a history of failures. Stronger ciphers replaced broken ones, to be in turn broken again. Quantum cryptography offers a hope to end this replacement cycle, for its security premises on the laws of physics and not on limitations of human ingenuity and computing. I will tell about ongoing deployment of quantum cryptography networks using fiber-optic and satellite links, and efforts to certify their implementation as secure.
-    
-  - name: David Lyon
-    twitter: 
-    section: david
-    website: https://sscqueens.org/davidlyon
-    bio: About thirty years ago I started to realize the the so-called 'microelectronics revolution' was likely to have profound effects on society, especially as personal data would become much more malleable, store-able and retrievable. That launched me into researching surveillance as a mushrooming feature of today's world. I'm neither a paranoid nor a Pollyanna but I do believe some urgent thought and action is needed on everyday online interactions and data justice.
-    pic: david.jpg
-    title: 
-    abstract: 
-
-  - name: Karen Sandler
-    twitter: o0karen0o
-    website: https://sfconservancy.org
-    section: karen
-    bio: "Karen M. Sandler is the executive director of the Software Freedom Conservancy, which is the nonprofit home of 46 projects, including Git, Etherpad, QEMU, Selenium and Inkscape (to name a few). Karen is known as a cyborg lawyer for her advocacy for free software, particularly in relation to the software on medical devices. Prior to joining Conservancy, she was executive director of the GNOME Foundation. Before that, she was general counsel of the Software Freedom Law Center. Karen co-organizes Outreachy, the award-winning outreach program for women globally and for people of color who are underrepresented in US tech. She is also pro bono counsel to the FSF and GNOME. Karen is a recipient of the O’Reilly Open Source Award and cohost of the oggcast Free as in Freedom."
-    pic: karen.jpg
-    title: Cyborgs Unite!
-    abstract: When Karen discovered at a young age that she had a life threatening heart condition, the last thing she expected was to have to worry about software. Now, with a heart device implanted in her body, she has come to understand not only how vulnerable medical devices are but how we are making critical choices about software that will have huge societal impact. Karen will also touch on potential avenues for accountability, transparency, and access to remedies as we hurtle towards an Internet of Things built on proprietary source code that prevents us from knowing exactly how these vital devices work, what data they are collecting and to what ends, what their vulnerabilities might be, and the extent to which their closed, proprietary nature keeps us from developing societal mechanisms and review processes to keep us safe.
 
   - name: Lori Olson
     twitter: wndxlori
@@ -36,11 +26,21 @@ keynotes:
     abstract: Not everyone has the same understanding of just what a software engineering (or software development if you prefer) career is all about. Is it a profession?  Is it a craft? Or is it your life's passion? Why not all three?
 
 
-  - name: Eva Galperin
+  - name: Karen Sandler
+    twitter: o0karen0o
+    website: https://sfconservancy.org
+    section: karen
+    bio: "Karen M. Sandler is the executive director of the Software Freedom Conservancy, which is the nonprofit home of 46 projects, including Git, Etherpad, QEMU, Selenium and Inkscape (to name a few). Karen is known as a cyborg lawyer for her advocacy for free software, particularly in relation to the software on medical devices. Prior to joining Conservancy, she was executive director of the GNOME Foundation. Before that, she was general counsel of the Software Freedom Law Center. Karen co-organizes Outreachy, the award-winning outreach program for women globally and for people of color who are underrepresented in US tech. She is also pro bono counsel to the FSF and GNOME. Karen is a recipient of the O’Reilly Open Source Award and cohost of the oggcast Free as in Freedom."
+    pic: karen.jpg
+    title: Cyborgs Unite!
+    abstract: When Karen discovered at a young age that she had a life threatening heart condition, the last thing she expected was to have to worry about software. Now, with a heart device implanted in her body, she has come to understand not only how vulnerable medical devices are but how we are making critical choices about software that will have huge societal impact. Karen will also touch on potential avenues for accountability, transparency, and access to remedies as we hurtle towards an Internet of Things built on proprietary source code that prevents us from knowing exactly how these vital devices work, what data they are collecting and to what ends, what their vulnerabilities might be, and the extent to which their closed, proprietary nature keeps us from developing societal mechanisms and review processes to keep us safe.
+  
+  - name: David Lyon
     twitter: 
-    section: eva
-    bio: 
-    pic: 
+    section: david
+    website: https://sscqueens.org/davidlyon
+    bio: About thirty years ago I started to realize the the so-called 'microelectronics revolution' was likely to have profound effects on society, especially as personal data would become much more malleable, store-able and retrievable. That launched me into researching surveillance as a mushrooming feature of today's world. I'm neither a paranoid nor a Pollyanna but I do believe some urgent thought and action is needed on everyday online interactions and data justice.
+    pic: david.jpg
     title: 
     abstract: 
 
@@ -54,23 +54,6 @@ keynotes:
 
 
 invspeakers:
-  - name: Kim Moir
-    twitter: kmoir
-    section: kim
-    website: https://kimmoir.blog/
-    bio: Kim Moir works at Mozilla as a Staff Release Engineer.  Kim’s interests lie in optimizing large distributed systems, specifically debugging and optimizing high volume continuous integration farms.  Her favourite thing to do is to replace an existing system with a new one until the legacy system is a tiny shell of its former self and it can be deleted, with no downtime. Kim has spoken at conferences and written extensively about open source and release engineering at scale on her blog https://kimmoir.blog.  She is an advocate for more inclusive and diverse culture within the industry, and practices for more effective teams.<br><br>Outside of work, Kim is a long distance runner, which dovetails nicely with her other hobby of baking cakes and making ice cream. She has an amazing husband and son.
-    pic: kim.jpg
-    title: From Hello World to Goodbye Code
-    abstract: At some point, the code you write today will be deleted and replaced with something new.  This talk will discuss the life cycle of a large code base, and how to manage it over time to accommodate rewrites, giving examples from a major rewrite of the Firefox build and release pipeline over the last two years.    You'll learn how to replace components of a running distributed system while keeping it operational, the proverbial replacing the wing of an airplane in flight. Beyoncé lyrics and cat pictures will also be featured.  
-
-  - name: Jake Pittis
-    twitter: jpittis
-    section: jake
-    bio: In between teaching his team about jazz, Jake can be found on the Production Engineering Team at Shopify. He's worked preparing the platform for massive celebrity sales, making Shopify run out of multiple data centres, and the resiliency stack to protect the app against misbehaving resources, and itself. Canadian Geese are his favourite animals. While the hipster movement of his nation has recently taken to eating these poor birds, Jake has yet to taste one. And never plans to. We don't eat our friends.
-    pic: jake.jpg
-    title: Resilient to Failure
-    abstract: "When browsing your favourite website, ordering something online or messaging your friends, you expect the internet applications you use to work. Surprising to some, behind the scenes: databases crash, fibres get cut, and whole regions of servers become unavailable. By designing our software systems to be resilient to failure, we can minimize impact so that you can still order those snazzy sneakers in time for your mother's birthday."
-
   - name: Jacob Cook
     twitter: peakwinter
     section: jacob
@@ -79,14 +62,6 @@ invspeakers:
     title: "The Stoic Geek: Finding Your Way as a New Developer"
     abstract: Landing your first job in a new, high-tech profession isn’t easy for anyone, let alone for students who have yet to gain a lot of practical experience. Here I will share the tricks and philosophies I’ve learned as a self-taught developer that help me to overcome the persistence of “impostor syndrome”, to navigate a quickly-changing field, and to work happily with my colleagues.
 
-  - name: Nicolas Le Roux
-    twitter: le_roux_nicolas
-    section: nico
-    bio: Nicolas Le Roux got an MSc in Applied Maths from Ecole Centrale Paris and an MSc in Maths, Learning and Vision from ENS Cachan. He got his PhD in 2008 from University of Montreal where he worked with Yoshua Bengio on neural networks in general and their optimisation in particular. He then moved to Microsoft Research Cambridge to work on generative models of images with John Winn. In 2010, he joined Inria in Francis Bach's team to work on large-scale convex optimisation. From 2012 to 2017, he created and managed the research team at Criteo in Paris. He joined Google Brain Montreal in 2017 where he now works on large-scale optimization and reinforcement learning.
-    pic: nico.jpg
-    title: Teaching Machines to Learn
-    abstract: Machine learning is one of the hottest topics in the tech industry in the last few years. However, despite some resounding successes, many roadblocks remain. I will discuss what is needed to go beyond very specialized systems, as well as give an overview of what doing research in machine learning looks like. In particular, since this domain is at the intersection of many other areas of science, there exist multiple viable directions for each problem.
-
   - name: Jim Duey
     twitter: toccata_lang
     section: jim
@@ -94,32 +69,6 @@ invspeakers:
     pic: jim.jpg
     title: Language as a Tool
     abstract: Creating a piece of software is hard. Yet functioning software is so incredibly valuable, even major errors can be overlooked and worked around. Programming languages are currently the best tools we have to create software, so creating a better language can have outsized benefits. This talk will look at some features a better language would have and discuss how those improve the act of creating software.
-
-  - name: Julian Squires
-    twitter: 
-    section: julian
-    website: https://www.cipht.net/
-    bio: Julian is an eccentric layabout in Montreal, Canada. He gets paid to slowly program computers fastly.
-    pic: julian.jpg
-    title: More Coverage With Fewer Tests
-    abstract: "Tests are important, but code is debt, and testing calcifies interfaces.  I'll briefly introduce a family of testing techniques that yield a lot of value per test: property testing, fuzzing, and concolic testing.  Then I'll talk about how you can start applying property testing right now, giving examples in Python and Rust."
-
-  - name: Christian Joudrey
-    twitter: cjoudrey
-    section: christian
-    bio: Christian is a self-taught software developer working on APIs at GitHub. At a young age, he discovered Visual Basic 6 on his home computer and immediately fell in love with programming. When he is not reading about technology and programming, you may find him rock climbing, cooking or drinking a stout.
-    pic: christian.png
-    title: Writing NES Games With Assembly
-    abstract: I’d like to take you on a stroll down memory lane and dig into the internals of the Nintendo Entertainment System (NES) to figure out how it works. While we’re there, we’ll see how to build a simple game for the NES using 6502 assembly with the help of a few modern tools. We’ll gain a new respect for ’80s developers and an appreciation for the high-level languages we have today!
-
-  - name: Mahtab Sabet
-    twitter: 
-    section: mahtab
-    website: http://mahtabsabet.com/
-    bio: Mahtab works as a Senior Software Engineer at Capital One in Toronto. Mahtab is a musical theater enthusiast and an avid gamer.
-    pic: mahtab.jpg
-    title: Mistakes I Made as a Junior Software Engineer (So You Don't Have To!)
-    abstract: Learn from my mistakes! Most junior software engineers make the same few mistakes their first year on the job, and I was certainly no exception. Cringe along with me as I relive the embarrassing details of actual blunders I made, what I learned from them, and how you can hopefully avoid them in your own career!
 
   - name: Robert Fratila
     twitter: 
@@ -130,13 +79,30 @@ invspeakers:
     title: Medical Applications of Deep Learning
     abstract: Using deep neural networks to discern patterns in both structured and unstructured data is becoming increasingly popular and powerful. It has commonly been applied to image processing and recommender systems, for example, but can it also be useful in medicine? This talk will explore the fields of brain imaging, both structural and functional, and the impact AI is having on them. Furthermore, it will explore how machine learning can use patient data to predict successful treatments for depression.
     
-  - name: Kaitlyn Yong
-    twitter: kaitlynyong
-    section: kaitlyn
-    bio: Kaitlyn is a Computer Science student at the University of Waterloo with a double minor in Entrepreneurship and Environmental Management. She’s interned at a variety of companies including Yelp, Shopify, Viki, and Wirkn as a Software Engineer or Product Manager. Kaitlyn is also a regular speaker at various hackathons and conferences such as Wonder Women Tech, UNCF HBCU Innovation Summit, and InspireHacks.<br><br>In her spare time, she plays varsity ultimate frisbee, organizes Hack the North, leads a technology empowerment initiative, acts as an ambassador for Sequoia Capital, and is a board member for two national non-for-profit organizations.
-    pic: kaitlyn.png
-    title: From Software Engineer to Product Manager
-    abstract: There's a chicken and egg problem that states "to become a Product Manager, you need to be a Product Manager." But hey, everyone has to start somewhere! So, what does it take to transition from a Software Engineer to a Product Manager? Find out in this talk as Kaitlyn Yong guides you through the basics of product management, how to position your technical skill set as an asset, and the interview process as a student.
+  - name: Christian Joudrey
+    twitter: cjoudrey
+    section: christian
+    bio: Christian is a self-taught software developer working on APIs at GitHub. At a young age, he discovered Visual Basic 6 on his home computer and immediately fell in love with programming. When he is not reading about technology and programming, you may find him rock climbing, cooking or drinking a stout.
+    pic: christian.png
+    title: Writing NES Games With Assembly
+    abstract: I’d like to take you on a stroll down memory lane and dig into the internals of the Nintendo Entertainment System (NES) to figure out how it works. While we’re there, we’ll see how to build a simple game for the NES using 6502 assembly with the help of a few modern tools. We’ll gain a new respect for ’80s developers and an appreciation for the high-level languages we have today!
+
+  - name: Nicolas Le Roux
+    twitter: le_roux_nicolas
+    section: nico
+    bio: Nicolas Le Roux got an MSc in Applied Maths from Ecole Centrale Paris and an MSc in Maths, Learning and Vision from ENS Cachan. He got his PhD in 2008 from University of Montreal where he worked with Yoshua Bengio on neural networks in general and their optimisation in particular. He then moved to Microsoft Research Cambridge to work on generative models of images with John Winn. In 2010, he joined Inria in Francis Bach's team to work on large-scale convex optimisation. From 2012 to 2017, he created and managed the research team at Criteo in Paris. He joined Google Brain Montreal in 2017 where he now works on large-scale optimization and reinforcement learning.
+    pic: nico.jpg
+    title: Teaching Machines to Learn
+    abstract: Machine learning is one of the hottest topics in the tech industry in the last few years. However, despite some resounding successes, many roadblocks remain. I will discuss what is needed to go beyond very specialized systems, as well as give an overview of what doing research in machine learning looks like. In particular, since this domain is at the intersection of many other areas of science, there exist multiple viable directions for each problem.
+
+  - name: Kim Moir
+    twitter: kmoir
+    section: kim
+    website: https://kimmoir.blog/
+    bio: Kim Moir works at Mozilla as a Staff Release Engineer.  Kim’s interests lie in optimizing large distributed systems, specifically debugging and optimizing high volume continuous integration farms.  Her favourite thing to do is to replace an existing system with a new one until the legacy system is a tiny shell of its former self and it can be deleted, with no downtime. Kim has spoken at conferences and written extensively about open source and release engineering at scale on her blog https://kimmoir.blog.  She is an advocate for more inclusive and diverse culture within the industry, and practices for more effective teams.<br><br>Outside of work, Kim is a long distance runner, which dovetails nicely with her other hobby of baking cakes and making ice cream. She has an amazing husband and son.
+    pic: kim.jpg
+    title: From Hello World to Goodbye Code
+    abstract: At some point, the code you write today will be deleted and replaced with something new.  This talk will discuss the life cycle of a large code base, and how to manage it over time to accommodate rewrites, giving examples from a major rewrite of the Firefox build and release pipeline over the last two years.    You'll learn how to replace components of a running distributed system while keeping it operational, the proverbial replacing the wing of an airplane in flight. Beyoncé lyrics and cat pictures will also be featured.  
 
   - name: Arshia Mufti
     twitter: arshia__
@@ -145,6 +111,40 @@ invspeakers:
     pic: arshia.jpg
     title: How Errors In Your Data Are Detected (and Fixed!)
     abstract: Whether it’s noise in a channel or scratches on a CD surface, errors in the movement and transmission of data are bound to occur. The message “I like rice!” could turn into “I like mice!”, or "1101" could turn into "1100". This behaviour can have many consequences, ranging from the bad (software will not work or run) to the very bad (software will do the *wrong* thing). This is where error correcting codes come in! They are used everywhere in communication technology—from CDs and iPods to RAM and deep space satellites. In this talk, I’ll discuss some of the challenges and mathematical techniques used in detecting and correcting errors in transmitted data.
+
+  - name: Jake Pittis
+    twitter: jpittis
+    section: jake
+    bio: In between teaching his team about jazz, Jake can be found on the Production Engineering Team at Shopify. He's worked preparing the platform for massive celebrity sales, making Shopify run out of multiple data centres, and the resiliency stack to protect the app against misbehaving resources, and itself. Canadian Geese are his favourite animals. While the hipster movement of his nation has recently taken to eating these poor birds, Jake has yet to taste one. And never plans to. We don't eat our friends.
+    pic: jake.jpg
+    title: Resilient to Failure
+    abstract: "When browsing your favourite website, ordering something online or messaging your friends, you expect the internet applications you use to work. Surprising to some, behind the scenes: databases crash, fibres get cut, and whole regions of servers become unavailable. By designing our software systems to be resilient to failure, we can minimize impact so that you can still order those snazzy sneakers in time for your mother's birthday."
+
+  - name: Mahtab Sabet
+    twitter: 
+    section: mahtab
+    website: http://mahtabsabet.com/
+    bio: Mahtab works as a Senior Software Engineer at Capital One in Toronto. Mahtab is a musical theater enthusiast and an avid gamer.
+    pic: mahtab.jpg
+    title: Mistakes I Made as a Junior Software Engineer (So You Don't Have To!)
+    abstract: Learn from my mistakes! Most junior software engineers make the same few mistakes their first year on the job, and I was certainly no exception. Cringe along with me as I relive the embarrassing details of actual blunders I made, what I learned from them, and how you can hopefully avoid them in your own career!
+
+  - name: Julian Squires
+    twitter: 
+    section: julian
+    website: https://www.cipht.net/
+    bio: Julian is an eccentric layabout in Montreal, Canada. He gets paid to slowly program computers fastly.
+    pic: julian.jpg
+    title: More Coverage With Fewer Tests
+    abstract: "Tests are important, but code is debt, and testing calcifies interfaces.  I'll briefly introduce a family of testing techniques that yield a lot of value per test: property testing, fuzzing, and concolic testing.  Then I'll talk about how you can start applying property testing right now, giving examples in Python and Rust."
+
+  - name: Kaitlyn Yong
+    twitter: kaitlynyong
+    section: kaitlyn
+    bio: Kaitlyn is a Computer Science student at the University of Waterloo with a double minor in Entrepreneurship and Environmental Management. She’s interned at a variety of companies including Yelp, Shopify, Viki, and Wirkn as a Software Engineer or Product Manager. Kaitlyn is also a regular speaker at various hackathons and conferences such as Wonder Women Tech, UNCF HBCU Innovation Summit, and InspireHacks.<br><br>In her spare time, she plays varsity ultimate frisbee, organizes Hack the North, leads a technology empowerment initiative, acts as an ambassador for Sequoia Capital, and is a board member for two national non-for-profit organizations.
+    pic: kaitlyn.png
+    title: From Software Engineer to Product Manager
+    abstract: There's a chicken and egg problem that states "to become a Product Manager, you need to be a Product Manager." But hey, everyone has to start somewhere! So, what does it take to transition from a Software Engineer to a Product Manager? Find out in this talk as Kaitlyn Yong guides you through the basics of product management, how to position your technical skill set as an asset, and the interview process as a student.
 
   - name: Mike Hoye
     twitter: 
