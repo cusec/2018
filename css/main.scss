@@ -174,7 +174,22 @@
   .team-header {
     margin-top: 3rem;
     margin-bottom: 3rem;
-    border-bottom: 3px solid #fff;
+    color: #fff;
+    position: relative;
+    display: block;
+    padding-bottom: 5px;
+    line-height: 1.5;
+    &:after {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 80px;
+      height: 2px;
+      background: $brand-dark-pink;
+      left: 50%;
+      margin-left: -40px;
+      bottom: 0;
+    }
   }
   hr {
     margin: 5rem 0;
@@ -186,7 +201,22 @@
   .coc-header {
     margin-top: 3rem;
     margin-bottom: 3rem;
-    text-decoration: underline;
+    color: #fff;
+    position: relative;
+    display: block;
+    padding-bottom: 5px;
+    line-height: 1.5;
+    &:after {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 80px;
+      height: 2px;
+      background: $brand-dark-pink;
+      left: 50%;
+      margin-left: -40px;
+      bottom: 0;
+    }
     @media (min-width: 768px) {
       font-size: 3em;
     }
@@ -463,6 +493,70 @@ td .note {
   }
 }
 
+#workshop-page {
+  .workshop-header {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    color: #fff;
+    position: relative;
+    display: block;
+    padding-bottom: 5px;
+    line-height: 1.5;
+    &:after {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 80px;
+      height: 2px;
+      background: $brand-dark-pink;
+      left: 50%;
+      margin-left: -40px;
+      bottom: 0;
+    }
+    @media (min-width: 768px) {
+      font-size: 3em;
+    }
+  }
+
+  hr {
+    margin: 5rem 0;
+    border-top: 1px solid rgb(255,255,255);
+  }
+
+  .team-pic{
+    figure {
+        display: block;
+        margin-bottom: 15px;
+        img {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 210px;
+        }
+    }
+  }
+
+  .speaker-talk{
+    h3{
+        color: #db2186;
+        margin-bottom: 1em;
+    }
+    hr{
+        border-top: 1px solid #db2186;
+        margin: 0;
+        width: 75px;
+        background: none;
+        margin-bottom: 1em;
+        margin-left: 40%;
+    }
+    color: #fff;
+    padding-top: 5rem;
+    @media (min-width: 768px){
+        padding-top: 0;
+        text-align: center;
+    }
+}
+}
+
 #team-page {
   .team-header {
     margin-top: 3rem;
@@ -533,10 +627,10 @@ td .note {
       color: $brand-lt-pink;
     }
 }
-.team-person-bio{
+  .team-person-bio{
     color: #fff;
     p.bio {
       margin-top:2rem;
     }
-}
+  }
 }

@@ -1,0 +1,65 @@
+workshops:
+  - logo: ibm.png
+    alt: IBM Logo
+    url: https://www.ibm.com/careers/
+    title: Watson Conversation Workshop
+    description: Meet IBM Watson! In this workshop IBMers from across the country will be there to there to teach  and support you in your hack to leverage Watson API Challenge. We will cover how to build a   chatbot and deploy it using Bluemix, Cloud Foundry, WatsonAPI, NodeJS. Lots of code sample will  be shown to integrate your chatbot hack with other awesome API’s like Twillio, Slack and many  others. Come join us in this amazing hackathon workshop.
+    presenter: Chris Yazbek
+    section: ibm
+
+  - logo: kinaxis.png
+    alt: Kinaxis Logo
+    url: http://kinaxis.com
+    title: Introduction to Pair Programming
+    description: Pair programming has proven to be an extremely useful tool in the modern software development world, but is rarely effectively leveraged and receives little attention in undergraduate curricula. After learning about the way pair programming works (and some of the pitfalls!), attendees will be given an opportunity to work in pairs to develop a small program in Python using a test-driven development approach. Attendees should come in pairs and bring at least one laptop with Python installed.
+    presenter:
+    section: kinaxis
+
+  - logo: rbc.png
+    alt: Royal Bank of Canada Logo
+    url: https://www.rbc.com/careers/
+    title: "RBC Architecture Design Challenge: Cloudy with a Chance of Payments"
+    description: Have you ever wondered about the complexities of enterprise systems and how they manage to handle tens of thousands of transactions per SECOND? At RBC’s workshop, you will be challenged to use cloud native concepts and event driven architecture to engineer a system that will solve some of the biggest hurdles that companies are facing today. Drop by to learn about the current hot topics in the tech communities and bring your most creative hats because there will be prizes to be won.
+    presenter: RBC Team
+    section: rbc
+
+  - logo: yelp.png
+    alt: Yelp logo
+    url: https://www.yelp.com/
+    title: Tips and Tricks to Prepare for Tech Interviews
+    description: Interviewing is challenging in more ways than one; but being prepared can make the process go much smoother. Join us to learn some tips on how to prepare pre-interview, what to expect during the interview and to practice these skills with some real-world examples in a workshop format.
+    presenter: Alexandra Phillips    
+    section: yelp
+
+  - logo: csec.png
+    alt: CSEC Logo
+    url: https://www.cse-cst.gc.ca/
+    title: The Operating System Complexion
+    description: "Most computer science students have to attend a class called Operating Systems. Taking part in that class, students learn about memory management, process management and concurrency, among other things. If they are lucky, some students will write kernel modules for Linux. Very rarely, if ever, will they implement actual operating system related algorithms. The reason for this is simple: time and complexity. Learning the computer architecture details required to implement even a useless bare bone operating system is just too long. What if this could be changed? What if there was a fully portable, self-contained and open source environment supporting the goal of writing operating system code as part of a related class? We are working on this. And we would like to share it with you."
+    presenter: CSEC Team
+    section: csec
+
+  - logo: capitalone.png
+    alt: Capital One Logo
+    url: https://www.capitalonecareers.ca/campus
+    title: How we do cloud at Capital One" by using an example of a serverless callable application using lambda and s3.
+    description: Cloud is here and is here to stay. We will walk through how to leverage AWS "serverless" infrastructure to create a fast and infinitely scalable web service. You will get to configure AWS to stand up your very own service in the cloud using Lambda and S3. You will also get the opportunity to glimpse into the underbelly of Cloud services and get your hands (a little) dirty. No prior cloud experience is required. Arrive with your internet enabled laptop and personal AWS account to get the best out of this workshop.
+    presenter: Capital One Team
+    section: capitalone
+
+  - logo: wind.png
+    alt: Wind River Logo
+    url: https://www.windriver.com/
+    title:
+    description:
+    presenter: Greg Waines
+    section: windriver
+
+  - logo: cae.png
+    alt: CAE Logo
+    url: https://www.cae.com/
+    title:
+    description:
+    presenter:
+    section: cae
+
