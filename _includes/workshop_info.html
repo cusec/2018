@@ -1,0 +1,20 @@
+<div id="{{ workshop.section }}" class="row justify-content-center align-items-center">
+    <div class="col-md-3 col-md-offset-2">
+            <div class="team-pic text-center" >
+                <figure><img src="{{ "/assets/sponsors/" }}{{ workshop.logo | default: 'placeholder.png' }}" alt="Image" class="img-fluid"></figure>
+            </div>
+    </div>    
+    <div class="col-md-8">
+            <div class="speaker-talk text-left">
+                {% if workshop.title %}
+                <h3>{{ workshop.title | default: 'Talk title coming soon!'}}</h3>
+                <p>{{ workshop.description | default: 'Description coming soon!'}}</p>
+                {% else %}
+                <h3>Workshop Information Coming Soon!</h3>
+                {% endif %}
+            </div>
+    </div>
+</div>
+{% if forloop.last == false %}
+<hr/>
+{% endif %}

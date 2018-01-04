@@ -1,3 +1,18 @@
 ---
 layout: default
+title: workshops
+permalink: /workshops/
 ---
+
+<section id="workshop-page" data-section="workshops">
+    <div class="container workshop-container">
+        <div class="row justify-content-center">
+            <div class="col-md-12">
+                <h1 class="text-center workshop-header">Workshops</h1>
+            </div>
+        </div>
+        {% for workshop in site.data.workshops.workshops %}
+          {% include workshop_info.html %}
+        {% endfor %}
+    </div>
+</section>
