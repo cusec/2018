@@ -50,8 +50,8 @@ workshops:
   - logo: wind.png
     alt: Wind River Logo
     url: https://www.windriver.com/
-    title:
-    description:
+    title: Programming for the Cloud and the Fog
+    description: Embedded Software for Intelligent Connected Systems
     presenter: Greg Waines
     section: windriver
 

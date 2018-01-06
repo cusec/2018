@@ -7,6 +7,24 @@ keynotes:
     title: Everything You Always Wanted to Know About Security Training, But Were Afraid to Ask
     abstract: As more and more people become concerned about protecting their digital privacy and security, it often falls on engineers to explain best practices to their friends, family, and communities. Even if we're not being actively solicited for advice, some of us would like to go out into our communities and give them the benefit of our experience in digital security. This talk will cover the many potential pitfalls of doing this kind of training, give some hard-won advice on how to do things right, and introduce the audience to the resources they need in order to become good trainers, including the Security Education Companion.
 
+  - name: Steve Klabnik
+    twitter: 
+    section: steve
+    website: https://github.com/steveklabnik/
+    bio: Rust Core team, former Rails Core team, extremely active in open source.
+    pic: steve.jpg
+    title: Rust's Development Process
+    abstract: "Rust is known for the language, that is, what the language does. But languages are more than just the language; they're also all of the stuff *around* the language: building the compiler, writing documentation, tons of things. Rust is not only an interesting language, but is doing very interesting, though less well-known, work around how a large software project is actually developed. In this talk, Steve will talk less about Rust, and more about building Rust, one of the largest programs written in Rust."
+
+  - name: David Lyon
+    twitter: 
+    section: david
+    website: https://sscqueens.org/davidlyon
+    bio: About thirty years ago I started to realize the the so-called 'microelectronics revolution' was likely to have profound effects on society, especially as personal data would become much more malleable, store-able and retrievable. That launched me into researching surveillance as a mushrooming feature of today's world. I'm neither a paranoid nor a Pollyanna but I do believe some urgent thought and action is needed on everyday online interactions and data justice.
+    pic: david.jpg
+    title: "Dealing with Data: the Nosedive Challenge"
+    abstract: Social media permits us to rate and rank each other with 'likes' and much time is spent polishing and preening images and reputations. Some fear a future where such sorting systems dominate our lives but in the popular imagination, the interpersonal aspects matter most. However, it's no accident that social media prompts us to provide more and more details about our daily lives. Whatever they say, social media is greedily surveillant. Most platforms are 'data-driven' only in the sense that data fuels them, not that data have a life of their own, independent of those who prospect for, mine and analyze them. So what are the priorities for developing appropriate, sustainable and fair social media platforms?
+
   - name: Vadim Makarov
     twitter: 
     section: vadim
@@ -34,24 +52,6 @@ keynotes:
     pic: karen.jpg
     title: Cyborgs Unite!
     abstract: When Karen discovered at a young age that she had a life threatening heart condition, the last thing she expected was to have to worry about software. Now, with a heart device implanted in her body, she has come to understand not only how vulnerable medical devices are but how we are making critical choices about software that will have huge societal impact. Karen will also touch on potential avenues for accountability, transparency, and access to remedies as we hurtle towards an Internet of Things built on proprietary source code that prevents us from knowing exactly how these vital devices work, what data they are collecting and to what ends, what their vulnerabilities might be, and the extent to which their closed, proprietary nature keeps us from developing societal mechanisms and review processes to keep us safe.
-  
-  - name: David Lyon
-    twitter: 
-    section: david
-    website: https://sscqueens.org/davidlyon
-    bio: About thirty years ago I started to realize the the so-called 'microelectronics revolution' was likely to have profound effects on society, especially as personal data would become much more malleable, store-able and retrievable. That launched me into researching surveillance as a mushrooming feature of today's world. I'm neither a paranoid nor a Pollyanna but I do believe some urgent thought and action is needed on everyday online interactions and data justice.
-    pic: david.jpg
-    title: 
-    abstract: 
-
-  - name: Steve Klabnik
-    twitter: 
-    section: steve
-    bio: 
-    pic: 
-    title: 
-    abstract: 
-
 
 invspeakers:
   - name: Jacob Cook
@@ -79,6 +79,15 @@ invspeakers:
     title: Medical Applications of Deep Learning
     abstract: Using deep neural networks to discern patterns in both structured and unstructured data is becoming increasingly popular and powerful. It has commonly been applied to image processing and recommender systems, for example, but can it also be useful in medicine? This talk will explore the fields of brain imaging, both structural and functional, and the impact AI is having on them. Furthermore, it will explore how machine learning can use patient data to predict successful treatments for depression.
     
+  - name: Mike Hoye
+    twitter: mhoye
+    section: mike
+    website: http://exple.tive.org/blarg
+    bio: Mike Hoye is the Engineering Community Manager at Mozilla, as well as a former sysadmin and entrepreneur. He'll be talking about what Mozilla's learned about openness and inclusivity as an engineering practice over the past five years, and what any open source project can do to give their community the same care and attention they give their products.
+    pic: mike.jpg
+    title: Accessible Code And Accessible Communities
+    abstract: Over the last five years we've put a lot of work into making our Mozilla more accessible and participatory, not just in the product but in our codebase, documentation and community. I'd like to share what we've learned from that, and what you can do to help your project and the community around it grow.
+  
   - name: Christian Joudrey
     twitter: cjoudrey
     section: christian
@@ -145,13 +154,4 @@ invspeakers:
     pic: kaitlyn.png
     title: From Software Engineer to Product Manager
     abstract: There's a chicken and egg problem that states "to become a Product Manager, you need to be a Product Manager." But hey, everyone has to start somewhere! So, what does it take to transition from a Software Engineer to a Product Manager? Find out in this talk as Kaitlyn Yong guides you through the basics of product management, how to position your technical skill set as an asset, and the interview process as a student.
-
-  - name: Mike Hoye
-    twitter: 
-    section: mike
-    bio: 
-    pic: 
-    title: Accessible Code And Accessible Communities
-    abstract: Over the last five years we've put a lot of work into making our Mozilla more accessible and participatory, not just in the product but in our codebase, documentation and community. I'd like to share what we've learned from that, and what you can do to help your project and the community around it grow.
-
    
