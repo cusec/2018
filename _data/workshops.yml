@@ -51,15 +51,15 @@ workshops:
     alt: Wind River Logo
     url: https://www.windriver.com/
     title: Programming for the Cloud and the Fog
-    description: Embedded Software for Intelligent Connected Systems
+    description: Wind River technology is found in nearly 2 billion devices globally plus a few that are out of this world.  We'll present a short overview of Wind River's comprehensive, end-to-end portfolio of solutions suited to address the emerging needs of IoT, from the secure and managed intelligent devices at the edge, to the gateway, into the critical network infrastructure, and up into the cloud.  We'll discuss how and why Cloud Technology has become the next-generation platform for products in a number of market areas.  In particular we'll look at how the cloud paradigm and key enabling technologies have enabled Telecommunication Products to move to the cloud and we'll look ahead at the evolving Fog Computing that could be a disruptive technology enabling applications that change the way we live.  A short demo of some fundamental cloud capabilities will be provided.
     presenter: Greg Waines
     section: windriver
 
   - logo: cae.png
     alt: CAE Logo
-    url: https://www.cae.com/
-    title:
-    description:
+    url: http://www.cae.com/
+    title: "Innovation at CAE: The Quest to Evolve Flight Training using Software"
+    description: "How is it possible to train airline pilots without burning hundreds of liters of fuel and increasing air traffic? Software is the answer! At CAE, we make flight simulators to train pilots without ever leaving the ground and software is everywhere in those simulators. Drop by to have a look at several examples of software innovations that help us make simulators better: from fooling GPS into thinking they’re somewhere they’re not to using the cloud to monitor simulator fleets halfway across the globe."
     presenter:
     section: cae
 
