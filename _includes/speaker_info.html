@@ -1,11 +1,11 @@
 <div id="{{ speaker.section }}" class="row justify-content-center align-items-center">
-        <div class="col-md-3 col-md-offset-2">
+        <div class="col-lg-4 col-md-6">
             <div class="team-pic text-center" >
                 <figure><img src="{{ "/assets/speakers/" }}{{ speaker.pic | default: 'placeholder.png' }}" alt="Image" class="rounded-circle img-fluid"></figure>
                 <h3><strong>{{ speaker.name }}</strong></h3>
                 {% if speaker.twitter and speaker.website %}
                 <div class="spk-social-media"><a href="https://twitter.com/{{ speaker.twitter }}"><em>@{{ speaker.twitter }}</em></a> | <a href="{{ speaker.website }}"><em>Website</em></a></div>
-                
+
                 {% elsif speaker.twitter %}
                 <a href="https://twitter.com/{{ speaker.twitter }}"><span class="spk-social-media"><em>@{{ speaker.twitter }}</em></span></a>
                 {% elsif speaker.website %}
@@ -20,7 +20,7 @@
                 {% endif %}
             </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-lg-6 col-md-6">
             {% if speaker.title %}
                 <div class="speaker-talk text-left">
                     <h3>{{ speaker.title | default: 'Talk title coming soon!'}}</h3>
@@ -36,4 +36,3 @@
     {% if forloop.last == false %}
       <hr/>
     {% endif %}
-    
