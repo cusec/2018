@@ -36,8 +36,13 @@ organizers:
 
   - name: Jonathan Gratton
     position: Director of Technology
-    bio: Jonathan is a fourth year Computer Science student at the University of Ottawa. In his free time, he fancies photography, science fiction novels, and the occasional video game. He also enjoys attending and organizing conventions, and some of his favorite tele series include Game of Thrones, House of Cards, and Battlestar Galactica. If you see him around the conference floor, don’t be shy, spark up a conversation!
+    bio: Jonathan is a fourth year Computer Science student at the University of Ottawa. In his free time, he fancies photography, science fiction novels, and the occasional video game. He also enjoys attending and organizing conventions, and some of his favorite tele series include Game of Thrones, and Battlestar Galactica. If you see him around the conference floor, don’t be shy, spark up a conversation!
     pic: jonathan.jpg
+
+  - name: Sébastien Roy
+    position: Director of Logistics
+    bio: Sébastien is currently in his fourth year studying Software Engineering at the University of Ottawa. This will be his fourth CUSEC! In his spare time, he enjoys playing football and loves swing dancing. He is very excited for this year's CUSEC!
+    pic: sebastien.jpg
 
   - name: Laura Wheatley
     position: Logistics Team
@@ -48,6 +53,11 @@ organizers:
     position: Director of Promotions
     bio: Abby is a third year computer science student at McGill. This is her second CUSEC but her first time on the team. In her spare time (what spare time?), she likes to do photography, hike and eat anything sweet. She watches way too many old British shows than she should. Her favs include Poirot, House of Cards (the one with Ian Richardson), Yes, Prime Minister, Inspector Morse.
     pic: abby.jpg
+  
+  - name: Samira El-Rayyes
+    position: Director of Finance
+    bio: Samira was first exposed to the world of code in grade ten, and she is now a graduated Software Engineering student from the University of Ottawa. After attending her first CUSEC in 2012, she knew that she had to get involved with this awesome event and has been an organizer since. 5 years ago, she handled CUSEC's social media sites and now Samira is the Director of Finance for CUSEC 2018. <br><br>She is a precious flower.
+    pic: samira.jpg
 
   - name: Elisa Kazan
     position: Head Delegate of Carleton
